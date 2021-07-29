@@ -64,9 +64,12 @@ body {
 } */
 
 .footer {
-    margin: 0.5rem 0 0.5rem 0;
-    color: white;
+    height: 40px !important;
+    width: 100% !important;
+     /* margin: 0.5rem 0 0.5rem 0;
+    color: black;
     font-size: 0.8rem;
+    height: 50px !important; */
 
 }
 
@@ -165,10 +168,6 @@ div.bouton.del {
         padding: 3%;
     }
 
-    #carouselHotel {
-        width: 70%;
-    }
-
     .photo-dh {
         width: 70%;
     }
@@ -188,12 +187,6 @@ div.bouton.del {
         width: 70%;
         padding: 3%;
     }
-
-    #carouselExampleInterval {
-        width: 70%;
-    }
-
-}
 
 @media(min-width:992px) {}
 
