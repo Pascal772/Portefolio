@@ -8,7 +8,7 @@
     #intro {
       margin-top: -58.59px;
     }
-  }
+  
 
   .navbar .nav-link {
     color: #fff !important;
@@ -30,13 +30,19 @@
   #twitt {
       background-color: #00acee;
   }
+}
   /* Height for devices larger than 400px */
 
-  @media (min-width: 400px) {
+  @media (min-width: 350px) {
     #intro {
       margin-top: -50.50px;
     }
-  }
+
+    .btn-link {
+        text-decoration: none;
+        color: black;
+    }
+  
 
   .navbar .nav-link {
     color: #fff !important;
@@ -58,3 +64,4 @@
   #twitt {
       background-color: #00acee;
   }
+}
