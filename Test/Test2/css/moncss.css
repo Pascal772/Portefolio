@@ -1,0 +1,60 @@
+#intro {
+    background-image: url(img/coutureciseauximage.jpg);
+    height: 100vh;
+  }
+
+  /* Height for devices larger than 576px */
+  @media (min-width: 992px) {
+    #intro {
+      margin-top: -58.59px;
+    }
+  }
+
+  .navbar .nav-link {
+    color: #fff !important;
+  }
+
+  #yout {
+    background-color: black;
+    color: red
+  }
+
+  #git {
+      background-color: black;
+  }
+
+  #face {
+      background-color: #3b5998;
+  }
+
+  #twitt {
+      background-color: #00acee;
+  }
+  /* Height for devices larger than 400px */
+
+  @media (min-width: 400px) {
+    #intro {
+      margin-top: -50.50px;
+    }
+  }
+
+  .navbar .nav-link {
+    color: #fff !important;
+  }
+
+  #yout {
+    background-color: black;
+    color: red
+  }
+
+  #git {
+      background-color: black;
+  }
+
+  #face {
+      background-color: #3b5998;
+  }
+
+  #twitt {
+      background-color: #00acee;
+  }
