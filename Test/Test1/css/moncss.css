@@ -1,0 +1,116 @@
+#intro {
+    background-image: url(img/coutureciseauximage.jpg);
+    height: 100vh;
+  }
+
+   /* Height for devices larger than 400px (moins que 350px) */
+
+   @media (min-width: 350px) {
+    #intro {
+      margin-top: -50.50px;
+    }
+
+    
+  .navbar .nav-link {
+    color: #fff !important;
+  }
+
+  #navbarToggleExternalContent3 {
+    margin-bottom: 30px;
+  }
+
+ 
+  #burgpanier {
+    color: black
+  }
+
+  #burgaccueil {
+    color: black
+    
+  }
+
+  #burgcompte {
+    color: black
+  }
+  #yout {
+    background-color: black;
+    color: red
+  }
+
+  #git {
+      background-color: black;
+  }
+
+  #face {
+      background-color: #3b5998;
+  }
+
+  #twitt {
+      background-color: #00acee;
+  }
+}
+
+ /* Height for devices larger than 768px (entre 350 et 800px) */
+
+ @media (min-width: 800px) {
+  #intro {
+    margin-top: -58.59px;
+  }
+
+  .navbar .nav-link {
+    color: #fff !important;
+  }
+
+  #yout {
+    background-color: black;
+    color: red
+  }
+
+  #git {
+      background-color: black;
+  }
+
+  #face {
+      background-color: #3b5998;
+  }
+
+  #twitt {
+      background-color: #00acee;
+  }
+
+
+}
+
+
+  /* Height for devices larger than 576px (plus que 572px) */
+  @media (min-width: 992px) {
+    #intro {
+      margin-top: -58.59px;
+    }
+  
+
+  .navbar .nav-link {
+    color: #fff !important;
+  }
+
+  #yout {
+    background-color: black;
+    color: red
+  }
+
+  #git {
+      background-color: black;
+  }
+
+  #face {
+      background-color: #3b5998;
+  }
+
+  #twitt {
+      background-color: #00acee;
+  }
+}
+
+ /* #Copyright {
+    !important;
+ } */
