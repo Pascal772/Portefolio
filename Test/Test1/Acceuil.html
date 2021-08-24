@@ -3,7 +3,8 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="X-Content-Type-Options: nosniff"> -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Accueil</title>
   <!-- Font Awesome -->
@@ -13,6 +14,7 @@
   <!-- MDB -->
   <link rel="stylesheet" href="css/mdb.min.css" />
   <!-- Custom styles -->
+  <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap-grid.css" />
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/moncss.css" />
   <!-- MDB -->
@@ -24,7 +26,7 @@
 <body>
   <!--Main Navigation-->
   <header>
-    <nav class="navbar navbar-light bg-light fixed-top d-block d-lg-none ">
+    <nav class="navbar navbar-light bg-light fixed-top d-block d-lg-none " >
       <div class="container-fluid">
         <button class="navbar-toggler ms-auto" type="button" data-mdb-toggle="collapse"
           data-mdb-target="#navbarToggleExternalContent3" aria-controls="navbarToggleExternalContent3"
@@ -33,6 +35,7 @@
         </button>
       </div>
     </nav>
+    <!-- Menu Burger -->
     <div class="collapse m-5" id="navbarToggleExternalContent3">
       <div class="bg-light shadow-3 p-4">
         <button class="btn btn-link btn-block border-bottom m-0" id="burgaccueil">Accueil</button>
@@ -40,6 +43,7 @@
         <button class="btn btn-link btn-block m-0" id="burgpanier">Mon panier</button>
       </div>
     </div>
+    <!-- Menu Burger -->
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark d-none d-lg-block bg-dark" style="z-index: 2000;">
@@ -90,6 +94,7 @@
                 <i class="fab fa-github"></i>
               </a>
             </li>
+            <!-- Icons -->
           </ul>
         </div>
       </div>
@@ -97,25 +102,40 @@
 
     <!-- Navbar -->
 
-    <div class="container">
-      <div class="row">
-        <div class="col-6 col-sm-6 col-lg-8"><img src="img/M1.svg" alt=""></div>
-        <div class="col-6 col-sm-6 col-lg-8"><img src="img/M1.svg" alt=""></div>
-        <div class="col-6 col-sm-6 col-lg-8"><img src="img/M1.svg" alt=""></div>
-        <div class="col-6 col-sm-6 col-lg-8"><img src="img/M1.svg" alt=""></div>
-      </div>
-      <div class="row">
-        <div class="col-sm-6 col-lg-8"><img src="img/M1.svg" alt=""></div>
-        <div class="col-sm-6 col-lg-8"><img src="img/M1.svg" alt=""></div>
-        <div class="col-sm-6 col-lg-8"><img src="img/M1.svg" alt=""></div>
-        <div class="col-sm-6 col-lg-8"><img src="img/M1.svg" alt=""></div>
-      </div>
-    </div>
 
+<!-- Grid Téléphone -->
 
+<div class="container" id="gridimg">
+  <div class="row">
+    <div class="col-sm-6 col-lg-3"><img src="img/image17.png" class="w-100 m-2 mt-5 m-lg-5" alt=""></div>
+    <div class="col-sm-6 col-lg-3"><img src="img/image17.png" class="w-100 m-2 m-lg-5" alt=""></div>
+    <div class="col-sm-6 col-lg-3"><img src="img/image17.png" class="w-100 m-2 m-lg-5" alt=""></div>
+    <div class="col-sm-6 col-lg-3"><img src="img/image17.png" class="w-100 m-2 m-lg-5" alt=""></div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6 col-lg-3"><img src="img/image17.png" class="w-100 m-2 m-lg-5" alt=""></div>
+    <div class="col-sm-6 col-lg-3"><img src="img/image17.png" class="w-100 m-2 m-lg-5" alt=""></div>
+    <div class="col-sm-6 col-lg-3"><img src="img/image17.png" class="w-100 m-2 m-lg-5" alt=""></div>
+    <div class="col-sm-6 col-lg-3"><img src="img/image17.png" class="w-100 m-2 m-lg-5" alt=""></div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6 col-lg-3"><img src="img/image17.png" class="w-100 m-2 m-lg-5" alt=""></div>
+    <div class="col-sm-6 col-lg-3"><img src="img/image17.png" class="w-100 m-2 m-lg-5" alt=""></div>
+    <div class="col-sm-6 col-lg-3"><img src="img/image17.png" class="w-100 m-2 m-lg-5" alt=""></div>
+    <div class="col-sm-6 col-lg-3"><img src="img/image17.png" class="w-100 m-2 m-lg-5" alt=""></div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6 col-lg-3"><img src="img/image17.png" class="w-100 m-2 m-lg-5" alt=""></div>
+    <div class="col-sm-6 col-lg-3"><img src="img/image17.png" class="w-100 m-2 m-lg-5" alt=""></div>
+    <div class="col-sm-6 col-lg-3"><img src="img/image17.png" class="w-100 m-2 m-lg-5" alt=""></div>
+    <div class="col-sm-6 col-lg-3"><img src="img/image17.png" class="w-100 m-2 m-lg-5" alt=""></div>
+  </div>
+</div>
 
-    <!-- <img src="img/M1.svg" alt=""> -->
+<!-- Grid Telephone -->
 
+    
+<!-- Pied de page -->
 
     <footer class="bg-light text-lg-start">
       <div class="py-4 text-center">
@@ -143,12 +163,13 @@
           <i class="fab fa-github"></i>
         </a>
       </div>
+      <!-- Copyright -->
       <div>
-        <!-- Copyright -->
         <a href="https://www.google.fr" id="Copyright"></a>© Mentions légales
       </div>
-
+      <!-- Copyright -->
     </footer>
+    <!-- Pied de page -->
 </body>
 
 </html>
