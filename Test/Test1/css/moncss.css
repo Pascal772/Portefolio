@@ -1,16 +1,16 @@
 #intro {
-    background-image: url(img/coutureciseauximage.jpg);
-    height: 100vh;
+  background-image: url(img/coutureciseauximage.jpg);
+  height: 100vh;
+}
+
+/* Height for devices larger than 400px (de 340px à 740px) */
+
+@media (min-width: 340px) and (max-width: 740px) {
+  #intro {
+    margin-top: -50.50px;
   }
 
-   /* Height for devices larger than 400px (de 340px à 740px) */
 
-   @media (min-width: 340px) and (max-width: 740px) {
-    #intro {
-      margin-top: -50.50px;
-    }
-
-    
   .navbar .nav-link {
     color: #fff !important;
   }
@@ -19,17 +19,16 @@
     position: fixed;
     margin-top: 4.9% !important;
     margin-left: 25% !important;
-    
+
   }
 
- 
+
   #burgpanier {
     color: black
   }
 
   #burgaccueil {
     color: black
-    
   }
 
   #burgcompte {
@@ -43,25 +42,25 @@
   }
 
   #git {
-      background-color: black;
+    background-color: black;
   }
 
   #face {
-      background-color: #3b5998;
+    background-color: #3b5998;
   }
 
   #twitt {
-      background-color: #00acee;
+    background-color: #00acee;
+  }
+  #Copyright {
+    margin-right: 33% !important;
   }
 }
 
-#Copyright {
- text-align: center !important;
-}
 
- /* Height for devices larger than 768px (entre 750 et 1000px) */
+/* Height for devices larger than 768px (entre 750 et 1000px) */
 
- @media (min-width: 750px) and (max-width: 1000px) {
+@media (min-width: 750px) and (max-width: 1000px) {
   #intro {
     margin-top: -58.59px;
   }
@@ -76,7 +75,6 @@
 
   #burgaccueil {
     color: black
-    
   }
 
   #burgcompte {
@@ -89,30 +87,72 @@
   }
 
   #git {
-      background-color: black;
+    background-color: black;
   }
 
   #face {
-      background-color: #3b5998;
+    background-color: #3b5998;
   }
 
   #twitt {
-      background-color: #00acee;
+    background-color: #00acee;
+  }
+
+  #Copyright {
+    margin-right: 40.5% !important;
   }
 
 
 }
 
 
-  /* Height for devices larger than 576px (plus que 572px) */
-  @media (min-width: 1024px) {
-    #intro {
-      margin-top: -58.59px;
-    }
-  
+/* Height for devices larger than 576px (plus que 1001px) */
+@media (min-width: 1001px) {
+  #intro {
+    margin-top: -58.59px;
+  }
+
 
   .navbar .nav-link {
     color: #fff !important;
+  }
+
+  #parentscollat {
+    
+    width: 16%;
+    height: 100% !important;
+    margin-left: 0.025%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    background-color: #4F4F4F;
+  }
+
+  #collat {
+   
+    width: 16%;
+    height: 100% !important;
+    margin-left: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    background-color: #4F4F4F;
+   
+  }
+
+  #titre {
+    width: 100%;
+    text-align: center !important;
+    color: white;
+  }
+
+  #produits {
+    width: 100%;
+    text-align: center !important;
+    color: white;
+  }
+
+  #pied {
+    /* position: relative !important; */
+    
   }
 
   #yout {
@@ -121,18 +161,20 @@
   }
 
   #git {
-      background-color: black;
+    background-color: black;
   }
 
   #face {
-      background-color: #3b5998;
+    background-color: #3b5998;
   }
 
   #twitt {
-      background-color: #00acee;
+    background-color: #00acee;
   }
-}
 
- #Copyright {
-   margin-right: 46.5% !important;
- }
+
+  #Copyright {
+    margin-right: 46.5% !important;
+  }
+
+}
