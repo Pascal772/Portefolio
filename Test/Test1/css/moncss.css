@@ -35,6 +35,13 @@
     color: black
   }
 
+  #burgproduits {
+    color: black;
+  }
+
+  #parentscollat {
+    display: none;
+  }
 
   #yout {
     background-color: black;
@@ -52,6 +59,7 @@
   #twitt {
     background-color: #00acee;
   }
+
   #Copyright {
     margin-right: 33% !important;
   }
@@ -79,6 +87,14 @@
 
   #burgcompte {
     color: black
+  }
+
+  #burgproduits {
+    color: black;
+  }
+
+  #parentscollat {
+    display: none;
   }
 
   #yout {
@@ -117,25 +133,43 @@
     color: #fff !important;
   }
 
+  #gridimg {
+
+    display: flex;
+    box-sizing: border-box;
+    
+
+  }
+
+  #colimg {
+    
+  }
+
   #parentscollat {
+    position: sticky;
+    flex-direction: column;
     
     width: 16%;
     height: 100% !important;
-    margin-left: 0.025%;
-    margin-top: 0%;
-    margin-bottom: 0%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
     background-color: #4F4F4F;
   }
 
   #collat {
-   
+    position: sticky;
+    flex-direction: column;
+    
     width: 16%;
     height: 100% !important;
-    margin-left: 0%;
-    margin-top: 0%;
-    margin-bottom: 0%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 10%;
     background-color: #4F4F4F;
-   
+
   }
 
   #titre {
@@ -151,7 +185,7 @@
   }
 
   /* #pied {
-    position: relative !important;
+    
     
   } */
 
