@@ -69,6 +69,12 @@
 /* Height for devices larger than 768px (entre 750 et 1000px) */
 
 @media (min-width: 750px) and (max-width: 1000px) {
+  /* header {
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+  } */
+  
   #intro {
     margin-top: -58.59px;
   }
@@ -137,53 +143,54 @@
 
     display: flex;
     box-sizing: border-box;
+    margin: 0;
+    padding-left: 0;
+    align-items: stretch;
+    width: 100%;
+   
 
 
   }
 
   #parentscollat {
     position: sticky;
-    flex-direction: column;
-
-    width: 16%;
-    height: 100% !important;
+    top: 0;
+    height: 100vmax;
+    width: 250px;
     margin-left: 0;
-    margin-right: 0;
     margin-top: 0;
-    margin-bottom: 0;
     background-color: #4F4F4F;
   }
 
   #collat {
     position: sticky;
-    flex-direction: column;
-
-    width: 16%;
-    height: 100% !important;
+    top: 0;
+    width: 250px;
     margin-left: 0;
-    margin-right: 0;
     margin-top: 0;
-    margin-bottom: 10%;
     background-color: #4F4F4F;
 
   }
 
-  #titre {
+  input {
     width: 100%;
+    align-items: center;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  #titre {
     text-align: center !important;
     color: white;
   }
 
   #produits {
-    width: 100%;
+    
     text-align: center !important;
     color: white;
   }
-
-  /* #pied {
-    
-    
-  } */
 
   #yout {
     background-color: black;
