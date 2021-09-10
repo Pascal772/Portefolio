@@ -93,6 +93,17 @@
     color: #fff !important;
   }
 
+  .recherche {
+    margin-top: 20px;
+    
+  }
+
+  #collat {
+    padding-right: 10px;
+    padding-left: 10px;
+
+  }
+
   #yout {
     background-color: black;
     color: red
@@ -110,5 +121,6 @@
       background-color: #00acee;
   }
 }
+
 
  
