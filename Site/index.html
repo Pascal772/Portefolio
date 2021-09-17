@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="X-Content-Type-Options: nosniff"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceuil</title>
+    <meta name="description" content="">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+    <!-- MDB -->
+    <!-- <link rel="stylesheet" href="css/mdb.min.css" /> -->
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/moncss.css" />
+    <link rel="stylesheet" href="css/diapo.css">
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js" defer></script>
+    <script src="js/Diapo.js"></script>
+</head>
+
+<body>
+    <!--Main Navigation-->
+    <header>
+        <nav class="navbar navbar-light bg-light fixed-top d-block d-lg-none">
+            <div class="container-fluid">
+                <button class="navbar-toggler ms-auto" type="button" data-mdb-toggle="collapse"
+                    data-mdb-target="#navbarToggleExternalContent3" aria-controls="navbarToggleExternalContent3"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+        <!-- Menu Burger -->
+        <div class="collapse m-5" id="navbarToggleExternalContent3">
+            <div class="bg-light shadow-3 p-4">
+                <button class="btn btn-link btn-block border-bottom m-0" id="burgaccueil"
+                    href="index.html">Accueil</button>
+                <button class="btn btn-link btn-block border-bottom m-0" id="burgcompte" href="#">Mon compte</button>
+                <button class="btn btn-link btn-block m-0" id="burgpanier" href="#">Mon panier</button>
+                <button class="btn btn-link btn-block m-0" id="burgproduits" href="#">Produits</button>
+            </div>
+        </div>
+        <!-- Menu Burger -->
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark d-none d-lg-block bg-dark" style="z-index: 2000;">
+            <div class="container-fluid">
+                <!-- Navbar brand -->
+                <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                    data-mdb-target="#navbarExample01" aria-controls="navbarExample01" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarExample01">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" aria-current="page" href="index.html">Acceuil</a>
+                            <!-- <img src="img/coutureciseauximage.jpg"> -->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" rel="nofollow" target="_blank">Mon compte</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" target="_blank">Mon panier</a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav d-flex flex-row">
+                        <!-- Icons -->
+                        <li class="nav-item me-3 me-lg-0">
+                            <a class="nav-link" href="https://www.youtube.com" rel="nofollow" target="_blank">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item me-3 me-lg-0">
+                            <a class="nav-link" href="https://www.facebook.com" rel="nofollow" target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item me-3 me-lg-0">
+                            <a class="nav-link" href="https://twitter.com" rel="nofollow" target="_blank">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <!-- Icons -->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Navbar -->
+    </header>
+    <!-- Colonne lattérale gauche -->
+    <div class="container-fluid" id="gridimg">
+        <div class="collat" id="parentscollat">
+            <div class="contenu collat" id="collat">
+                <input type="search" placeholder="Recherche produits" class="recherche">
+                <h1 class="text" id="titre">PRODUITS</h1>
+                <a href="masques.html">
+                    <p class="text" id="produits">Masques</p>
+                </a>
+                <a href="tabliers.html">
+                    <p class="text" id="produits">Tabliers</p>
+                </a>
+                <a href="essuie.html">
+                    <p class="text" id="produits">Essuie tout</p>
+                </a>
+                <a href="tissus.html">
+                    <p class="text" id="produits">Tissus</p>
+                </a>
+            </div>
+        </div>
+        <!-- Diaporama -->
+        <main>
+            <h1 class="titreindex text-center">L'atelier de Jade</h1>
+            <div class="diapo">
+                <div class="elements">
+                    <div class="element">
+                        <img src="img/atelier_de_couture.jpg" alt="Image 1">
+                        <div class="texte">
+                            <h2>Image 1</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, sit.</p>
+                        </div>
+                    </div>
+                    <div class="element">
+                        <img src="img/atelier_de_couture.jpg" alt="Image 2">
+                        <div class="texte">
+                            <h2>Image 2</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, sit.</p>
+                        </div>
+                    </div>
+                    <div class="element">
+                        <img src="img/atelier_de_couture.jpg" alt="Image 3">
+                        <div class="texte">
+                            <h2>Image 3</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, sit.</p>
+                        </div>
+                    </div>
+                    <div class="element">
+                        <img src="img/atelier_de_couture.jpg" alt="Image 4">
+                        <div class="texte">
+                            <h2>Image 4</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, sit.</p>
+                        </div>
+                    </div>
+                    <div class="element">
+                        <img src="img/atelier_de_couture.jpg" alt="Image 5">
+                        <div class="texte">
+                            <h2>Image 5</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, sit.</p>
+                        </div>
+                    </div>
+                </div>
+                <span id="gauche">&lt;</span>
+                <span id="droite">&gt;</span>
+            </div>
+        </main>
+
+    </div>
+
+    <!-- Pied de page -->
+
+    <footer class="bg-light text-lg-start w-100" id="pied">
+        <div class="py-4 text-center">
+
+        </div>
+
+        <hr class="m-0" />
+
+        <div class="text-center py-4 align-items-center">
+            <p>Réseaux sociaux</p>
+            <a href="https://www.youtube.com/" id="yout" class="btn btn-primary m-1" role="button" rel="nofollow"
+                target="_blank">
+                <i class="fab fa-youtube"></i>
+            </a>
+            <a href="https://www.facebook.com/" id="face" class="btn btn-primary m-1" role="button" rel="nofollow"
+                target="_blank">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://twitter.com/" id="twitt" class="btn btn-primary m-1" role="button" rel="nofollow"
+                target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </div>
+        <!-- Copyright -->
+        <div>
+            <a class=" lienMentions text-center" href="https://www.google.fr">
+                <p class="Mentions text-dark">Mentions légales</p>
+            </a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Pied de page -->
+</body>
+
+</html>
