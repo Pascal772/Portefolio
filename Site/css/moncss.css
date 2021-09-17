@@ -1,7 +1,8 @@
-#intro {
-    background-image: url(img/coutureciseauximage.jpg);
+/* #intro {
+    background-image: url(../img/coutureciseauximage.jpg);
     height: 100vh;
-  }
+  } */
+
 
    /* Height for devices larger than 400px (moins que 350px) */
 
@@ -54,6 +55,7 @@
 
  @media (min-width: 800px) {
   #intro {
+    height: 100vh;
     margin-top: -58.59px;
   }
 
@@ -84,6 +86,8 @@
 
   /* Height for devices larger than 576px (plus que 572px) */
   @media (min-width: 992px) {
+  
+    
     #intro {
       margin-top: -58.59px;
     }
