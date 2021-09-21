@@ -3,9 +3,6 @@ main{
     margin: auto;
 }
 
-main h1{
-    margin: 0;
-}
 .diapo{
     overflow: hidden;
     position: relative;
@@ -25,20 +22,12 @@ main h1{
 .element{
     flex: 1 0 100%;
     position: relative;
+    
 }
 
 .element > img{
     width: 100%;
-}
 
-.texte{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 10px;
-    background-color: rgba(255,255,255, .4);
-    text-align: center;
 }
 
 #gauche, #droite{

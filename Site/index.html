@@ -16,8 +16,8 @@
     <!-- <link rel="stylesheet" href="css/mdb.min.css" /> -->
     <!-- Custom styles -->
     <link rel="stylesheet" href="css/bootstrap.css" />
+    <!-- <link rel="stylesheet" href="css/moncss.css" /> -->
     <link rel="stylesheet" href="css/index.css" />
-    <link rel="stylesheet" href="css/moncss.css" />
     <link rel="stylesheet" href="css/diapo.css">
     <!-- MDB -->
     <script type="text/javascript" src="js/mdb.min.js" defer></script>
@@ -38,12 +38,11 @@
         </nav>
         <!-- Menu Burger -->
         <div class="collapse m-5" id="navbarToggleExternalContent3">
-            <div class="bg-light shadow-3 p-4">
-                <button class="btn btn-link btn-block border-bottom m-0" id="burgaccueil"
-                    href="index.html">Accueil</button>
-                <button class="btn btn-link btn-block border-bottom m-0" id="burgcompte" href="#">Mon compte</button>
-                <button class="btn btn-link btn-block m-0" id="burgpanier" href="#">Mon panier</button>
-                <button class="btn btn-link btn-block m-0" id="burgproduits" href="#">Produits</button>
+            <div class="bg-light shadow-3 p-4 text-decoration-none">
+                <a class="btn btn-link btn-block border-bottom m-0" id="burgaccueil" href="index.html">Accueil</a>
+                <a class="btn btn-link btn-block border-bottom m-0" id="burgcompte" href="login.html">Mon compte</a>
+                <a class="btn btn-link btn-block m-0" id="burgpanier" href="#">Mon panier</a>
+                <a class="btn btn-link btn-block m-0" id="burgproduits" href="produits.html">Produits</a>
             </div>
         </div>
         <!-- Menu Burger -->
@@ -64,7 +63,7 @@
                             <!-- <img src="img/coutureciseauximage.jpg"> -->
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" rel="nofollow" target="_blank">Mon compte</a>
+                            <a class="nav-link" href="login.html" rel="nofollow" target="_blank">Mon compte</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#" target="_blank">Mon panier</a>
@@ -97,7 +96,7 @@
         <!-- Navbar -->
     </header>
     <!-- Colonne lattérale gauche -->
-    <div class="container-fluid" id="gridimg">
+    <div class="container-fluid" id="grid">
         <div class="collat" id="parentscollat">
             <div class="contenu collat" id="collat">
                 <input type="search" placeholder="Recherche produits" class="recherche">
@@ -118,51 +117,39 @@
         </div>
         <!-- Diaporama -->
         <main>
-            <h1 class="titreindex text-center">L'atelier de Jade</h1>
             <div class="diapo">
+                <h1 class="titreindex text-center">L'atelier de Jade</h1>
                 <div class="elements">
                     <div class="element">
                         <img src="img/atelier_de_couture.jpg" alt="Image 1">
-                        <div class="texte">
-                            <h2>Image 1</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, sit.</p>
-                        </div>
                     </div>
                     <div class="element">
                         <img src="img/atelier_de_couture.jpg" alt="Image 2">
-                        <div class="texte">
-                            <h2>Image 2</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, sit.</p>
-                        </div>
                     </div>
                     <div class="element">
                         <img src="img/atelier_de_couture.jpg" alt="Image 3">
-                        <div class="texte">
-                            <h2>Image 3</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, sit.</p>
-                        </div>
                     </div>
                     <div class="element">
                         <img src="img/atelier_de_couture.jpg" alt="Image 4">
-                        <div class="texte">
-                            <h2>Image 4</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, sit.</p>
-                        </div>
                     </div>
                     <div class="element">
                         <img src="img/atelier_de_couture.jpg" alt="Image 5">
-                        <div class="texte">
-                            <h2>Image 5</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, sit.</p>
-                        </div>
                     </div>
                 </div>
                 <span id="gauche">&lt;</span>
                 <span id="droite">&gt;</span>
             </div>
+            <div class="description">
+                <h2>Description</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias, qui dolorum. Hic ducimus, quidem
+                    reiciendis tempora illo doloremque, repudiandae consequuntur sed voluptatem corporis quo.
+                    Accusantium, architecto. Temporibus doloribus id harum.</p>
+            </div>
+
         </main>
 
     </div>
+
 
     <!-- Pied de page -->
 
