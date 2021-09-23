@@ -32,11 +32,11 @@ main{
 
 #gauche, #droite{
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 0;
     transform: translateY(-50%);
-    color: white;
-    font-size: 3rem;
+    color: chocolate;
+    font-size: 5rem;
     cursor: pointer;
 }
 
