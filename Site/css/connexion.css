@@ -45,8 +45,9 @@ a {
     }
 
     .login{
-        display: grid
-        grid-template: 1fr 1fr 1fr !important;
+        display: grid !important;
+        grid-columns: 1fr 1fr 1fr !important;
+        justify-items: center !important;
     }
 
     .email{
