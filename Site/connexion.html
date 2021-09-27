@@ -3,10 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta http-equiv="X-Content-Type-Options: nosniff"> -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Acceuil</title>
+    <title>Connexion</title>
     <meta name="description" content="">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
@@ -14,11 +13,10 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
     <!-- Custom styles CSS-->
     <link rel="stylesheet" href="css/bootstrap.css" />
-    <link rel="stylesheet" href="css/index.css" />
-    <link rel="stylesheet" href="css/diapo.css">
+    <link rel="stylesheet" href="css/connexion.css" />
     <!-- MDB JS-->
     <script type="text/javascript" src="js/mdb.min.js" defer></script>
-    <script src="js/Diapo.js"></script>
+
 </head>
 
 <body>
@@ -57,7 +55,7 @@
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item active">
                             <a class="nav-link" aria-current="page" href="index.html">Acceuil</a>
-                            
+
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="login.html" rel="nofollow" target="_blank">Mon compte</a>
@@ -91,94 +89,62 @@
         </nav>
 
         <!-- Navbar -->
-    </header>
-    <!-- Colonne lattérale gauche -->
-    <div class="container-fluid" id="grid">
-        <div class="collat" id="parentscollat">
-            <h1 class="text" id="titre">PRODUITS</h1>
-            <div class="contenu collat" id="collat">
-                <input type="search" placeholder="Recherche produits" class="recherche">
-                <a href="masques.html">
-                    <p class="text" id="produits">Masques</p>
-                </a>
-                <a href="tabliers.html">
-                    <p class="text" id="produits">Tabliers</p>
-                </a>
-                <a href="essuie.html">
-                    <p class="text" id="produits">Essuie tout</p>
-                </a>
-                <a href="tissus.html">
-                    <p class="text" id="produits">Tissus</p>
-                </a>
-            </div>
-        </div>
-        <!-- Diaporama -->
+        <!-- Formulaire -->
         <main>
-            <div class="diapo">
-                <h1 class="titreindex text-center">L'atelier de Jade</h1>
-                <div class="elements">
-                    <div class="element">
-                        <img src="img/atelier_de_couture.jpg" alt="Image 1">
+            <section>
+                <form class="Login">
+                    <div class="Email">
+                        <p>E-mail</p>
+                        <input type="email">
                     </div>
-                    <div class="element">
-                        <img src="img/atelier_de_couture_personne.png" alt="Image 2">
+                    <div class="password">
+                        <p>Mot de passe</p>
+                        <input type="password">
                     </div>
-                    <div class="element">
-                        <img src="img/atelier_de_couture_mur.png" alt="Image 3">
+                    <div class="valider">
+                        <a href="index.html"><button>Valider</button></a>
                     </div>
-                    <div class="element">
-                        <img src="img/atelier_de_couture_prestra.png" alt="Image 4">
+                    <div class="check">
+                        <input type="checkbox" name="caseàcocher" id="case">
+                        <p>Rester connecté</p>
                     </div>
-                </div>
-                <span id="gauche">&lt;</span>
-                <span id="droite">&gt;</span>
-            </div>
-            <div class="description">
-                <h2>Description</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias, qui dolorum. Hic ducimus, quidem
-                    reiciendis tempora illo doloremque, repudiandae consequuntur sed voluptatem corporis quo.
-                    Accusantium, architecto. Temporibus doloribus id harum.</p>
-            </div>
-
+                    <div class="mpoublié">
+                        <a href="#"><button>Mot de passe oublié</button></a>
+                    </div>
+                </form>
+            </section>
         </main>
-        <!-- Diaporama -->
+        <!-- Pied de page -->
 
-    </div>
+        <footer class="bg-light text-lg-start w-100" id="pied">
+            <div class="py-4 text-center">
+            </div>
+            <hr class="m-0" />
+            <div class="text-center py-4 align-items-center">
+                <p>Réseaux sociaux</p>
+                <a href="https://www.youtube.com/" id="yout" class="btn btn-primary m-1" role="button" rel="nofollow"
+                    target="_blank">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href="https://www.facebook.com/" id="face" class="btn btn-primary m-1" role="button" rel="nofollow"
+                    target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://twitter.com/" id="twitt" class="btn btn-primary m-1" role="button" rel="nofollow"
+                    target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
+            <!-- Mentions légales -->
+            <div>
+                <a class=" lienMentions text-center" href="https://www.google.fr">
+                    <p class="Mentions text-dark">Mentions légales</p>
+                </a>
+            </div>
+            <!-- Mentions légales -->
+        </footer>
+        <!-- Pied de page -->
 
-
-    <!-- Pied de page -->
-
-    <footer class="bg-light text-lg-start w-100" id="pied">
-        <div class="py-4 text-center">
-
-        </div>
-
-        <hr class="m-0" />
-
-        <div class="text-center py-4 align-items-center">
-            <p>Réseaux sociaux</p>
-            <a href="https://www.youtube.com/" id="yout" class="btn btn-primary m-1" role="button" rel="nofollow"
-                target="_blank">
-                <i class="fab fa-youtube"></i>
-            </a>
-            <a href="https://www.facebook.com/" id="face" class="btn btn-primary m-1" role="button" rel="nofollow"
-                target="_blank">
-                <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="https://twitter.com/" id="twitt" class="btn btn-primary m-1" role="button" rel="nofollow"
-                target="_blank">
-                <i class="fab fa-twitter"></i>
-            </a>
-        </div>
-        <!-- Copyright -->
-        <div>
-            <a class=" lienMentions text-center" href="https://www.google.fr">
-                <p class="Mentions text-dark">Mentions légales</p>
-            </a>
-        </div>
-        <!-- Copyright -->
-    </footer>
-    <!-- Pied de page -->
 </body>
 
 </html>

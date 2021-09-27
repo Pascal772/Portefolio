@@ -1,0 +1,174 @@
+body {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Height for devices larger jusqu'à 759px */
+
+@media (max-width: 759px) {
+    body {
+        box-sizing: border-box;
+    }
+
+    #navbarToggleExternalContent3 {
+        z-index: 1000;
+        position: fixed;
+        margin-top: 4.9% !important;
+        margin-left: 2.5rem !important;
+        margin-right: 2.5rem !important;
+        background-color: white;
+
+    }
+
+    #navbarToggleExternalContent3 a {
+        color: black;
+
+    }
+
+    .bg-light button {
+        text-decoration: none;
+        color: black;
+    }
+
+    .navbar .nav-link {
+        color: #fff !important;
+
+    }
+
+    .btn {
+
+        color: black;
+        text-decoration: none !important;
+    }
+
+    .login{
+        display: grid
+        grid-template: 1fr 1fr 1fr !important;
+    }
+
+    .email{
+        
+    }
+
+    #yout {
+        background-color: black;
+        color: red
+    }
+
+    #face {
+        background-color: #3b5998;
+    }
+
+    #twitt {
+        background-color: #00acee;
+    }
+
+
+
+    #parentscollat {
+        display: none;
+    }
+
+    #Copyright {
+        margin-right: 33% !important;
+    }
+
+}
+
+
+
+/* Height for devices larger than 768px */
+
+@media (min-width: 760px) and (max-width: 899px) {
+
+    body {
+        box-sizing: border-box;
+    }
+
+    .navbar .nav-link {
+        color: #fff !important;
+    }
+
+    #navbarToggleExternalContent3 {
+        z-index: 1000;
+        position: fixed;
+        margin-top: 4.9% !important;
+        margin-left: 25% !important;
+        background-color: white;
+
+    }
+
+    .btn {
+
+        color: black;
+        text-decoration: none !important;
+    }
+
+
+    .navbar .nav-link {
+        color: #fff !important;
+
+    }
+
+    #yout {
+        background-color: black;
+        color: red
+    }
+
+    #git {
+        background-color: black;
+    }
+
+    #face {
+        background-color: #3b5998;
+    }
+
+    #twitt {
+        background-color: #00acee;
+    }
+
+    #Copyright {
+        margin-right: 40.5% !important;
+    }
+
+
+}
+
+
+/* Height for devices larger than 900px */
+@media (min-width: 900px) {
+    body {
+        box-sizing: border-box;
+    }
+
+    .navbar .nav-link {
+        color: #fff !important;
+    }
+   
+
+    #yout {
+        background-color: black;
+        color: red
+    }
+
+    #git {
+        background-color: black;
+    }
+
+    #face {
+        background-color: #3b5998;
+    }
+
+    #twitt {
+        background-color: #00acee;
+    }
+
+
+    #Copyright {
+        margin-right: 46.5% !important;
+    }
+
+}
