@@ -1,0 +1,111 @@
+body {
+    background-color: black;
+    box-sizing: border-box;
+    margin: 0;
+    width: 100%;
+    font-family: "orbitron" , sans-serif;
+}
+
+main {
+    width: 100%;
+    /* text-align: center; */
+    margin: 0;
+}
+
+div {
+    width: 100%;
+    text-align: center;
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+a p {
+    color: turquoise !important;
+}
+
+h1 {
+    background-image: linear-gradient(to right, rgba(241, 241, 180, 0.966), yellow, red, orange, red, yellow, rgba(241, 241, 180, 0.966));
+    color: white;
+    text-align: center;
+}
+
+p{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+h2{
+    text-align: center;
+}
+
+img {
+    width: 80%;
+    border: solid 10px;
+    margin: 10px;
+
+}
+
+.projets {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+.detailsprojets {
+    width: 100%;
+    text-align: center;
+    margin: 50px;
+}
+
+.projets h2 {
+    color: white;
+}
+
+.imgACS {
+    text-align: center;
+    border-color: #334087;
+
+}
+
+.imghotel {
+    text-align: center;
+    border-color: #EB6868;
+}
+
+.imgjade {
+    border-color: gray;
+}
+
+.imgtv1 {
+    border-color: #8130AC;
+}
+
+.imgtv2 {
+    border-color: white;
+}
+
+.imgmaqureprod {
+
+    border-image: linear-gradient(#F04C06, #FF0000) 300;
+}
+
+.maquettetp {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+.detailsmaquette {
+    width: 100%;
+    text-align: center !important;
+    margin: 50px;
+}
+
+.detailsmaquette h2 {
+    color: white;
+}
