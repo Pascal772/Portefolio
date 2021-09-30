@@ -126,7 +126,7 @@
     }
 }
 
-@media (min-width: 560px and max-width: 1199px) {
+@media (min-width: 560px) and (max-width: 1199px) {
     
 
 body {
