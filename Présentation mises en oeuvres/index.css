@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 @media (min-width: 360px){
 
     body {
@@ -10,7 +13,6 @@
     
     main {
         width: 100%;
-        /* text-align: center; */
         margin: 0;
     }
     
@@ -124,6 +126,20 @@
     .detailsmaquette h2 {
         color: white;
     }
+
+    /* Footer */
+
+    .coord{
+        margin: 0;
+        text-align: center !important;
+    }
+
+    .download{
+        margin: 20px 0;
+        text-align: center !important;
+    }
+
+   /* Footer */
 }
 
 @media (min-width: 560px) and (max-width: 1199px) {
