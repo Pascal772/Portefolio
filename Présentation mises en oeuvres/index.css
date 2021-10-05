@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
 }
-@media (min-width: 360px){
+@media (min-width: 360px) and (max-width: 559px){
 
     body {
         background-color: black;
@@ -108,7 +108,7 @@
     
     .imgmaqureprod {
     
-        border-image: linear-gradient(#F04C06, #FF0000) 80;
+        border-image: linear-gradient(#F04C06, #FF0000) 10 !important;
     }
     
     .maquettetp {
@@ -144,37 +144,47 @@
 
 @media (min-width: 560px) and (max-width: 1199px) {
     
+* {
+    width: 100% !important;
+    box-sizing: border-box !important; 
+    
+}
 
 body {
     background-color: black;
     box-sizing: border-box;
     margin: 0;
-    width: 100%;
+    width: 100% !important;
+    text-align: center;
     font-family: "orbitron" , sans-serif;
 }
 
 main {
     width: 100%;
-    /* text-align: center; */
+    text-align: center !important;
     margin: 0;
 }
 
 div {
-    width: 100%;
+    width: 100% !important;
     text-align: center;
 }
 
 a {
+    width: 100% !important;
     text-align: center;
     text-decoration: none;
     
 }
 
 a p {
+    width: 100%;
     color: turquoise !important;
+    text-align: center;
 }
 
 h1 {
+    width: 100% !important;
     margin: 0;
     background-image: linear-gradient(to right, rgba(241, 241, 180, 0.966), yellow, red, orange, red, yellow, rgba(241, 241, 180, 0.966));
     color: white;
@@ -182,17 +192,19 @@ h1 {
 }
 
 p{
+    width: 100%;
     color: white;
     text-align: center;
     font-size: 1.5rem;
 }
 
 h2{
+    width: 100% !important;
     text-align: center;
 }
 
 img {
-    width: 80%;
+    width: 100% !important;
     border: solid 10px;
     margin: 10px;
 
@@ -239,7 +251,7 @@ img {
 
 .imgmaqureprod {
 
-    border-image: linear-gradient(#F04C06, #FF0000) 300;
+    border-image: linear-gradient(#F04C06, #FF0000) 10 !important;
 }
 
 .maquettetp {
@@ -263,6 +275,11 @@ img {
 
 @media (min-width: 1200px){
     
+* {
+    width: 100%;
+    box-sizing: border-box;
+
+}
 
 body {
     background-color: black;
