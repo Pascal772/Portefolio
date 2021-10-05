@@ -1,5 +1,7 @@
 *{
-    box-sizing: border-box;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    
 }
 @media (min-width: 360px) and (max-width: 559px){
 
@@ -152,7 +154,7 @@
 
 body {
     background-color: black;
-    box-sizing: border-box;
+    box-sizing: border-box !important;
     margin: 0;
     width: 100% !important;
     text-align: center;
@@ -201,6 +203,12 @@ p{
 h2{
     width: 100% !important;
     text-align: center;
+
+}
+
+h3{
+    color: white;
+    width: 100%;
 }
 
 img {
@@ -251,6 +259,7 @@ img {
 
 .imgmaqureprod {
 
+    width: 100%;
     border-image: linear-gradient(#F04C06, #FF0000) 10 !important;
 }
 
@@ -267,7 +276,16 @@ img {
 }
 
 .detailsmaquette h2 {
+    width: 100%;
     color: white;
+}
+
+.coord{
+    width: 100%;
+}
+
+.download{
+    margin: 30px;
 }
 
 }
@@ -291,13 +309,13 @@ body {
 
 main {
     width: 100%;
-    /* text-align: center; */
+    text-align: center !important;
     margin: 0;
 }
 
 div {
-    width: 100%;
-    text-align: center;
+    width: 100% !important;
+    text-align: center !important;
 }
 
 a {
@@ -328,6 +346,7 @@ h2{
 }
 
 img {
+    text-align: center !important;
     width: 80%;
     border: solid 10px;
     margin: 10px;
@@ -394,4 +413,7 @@ img {
     color: white;
 }
 
+.download{
+    margin: 30px;
+}
 }
