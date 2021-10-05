@@ -1,6 +1,7 @@
 *{
     width: 100% !important;
     box-sizing: border-box !important;
+    margin: 0% !important;
     
 }
 @media (min-width: 360px) and (max-width: 559px){
@@ -148,14 +149,16 @@
     
 * {
     width: 100% !important;
-    box-sizing: border-box !important; 
+    box-sizing: border-box !important;
+    margin: 0% !important; 
     
 }
 
 body {
     background-color: black;
+    background-size: 100% !important;
     box-sizing: border-box !important;
-    margin: 0;
+    margin: 0% !important;
     width: 100% !important;
     text-align: center;
     font-family: "orbitron" , sans-serif;
@@ -170,6 +173,7 @@ main {
 div {
     width: 100% !important;
     text-align: center;
+    margin: 0 !important;
 }
 
 a {
@@ -285,7 +289,12 @@ img {
 }
 
 .download{
-    margin: 30px;
+    margin: 30px !important;
+    text-align: center !important;
+}
+
+.download a{
+    text-align: center !important;
 }
 
 }
