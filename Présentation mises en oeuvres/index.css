@@ -13,6 +13,11 @@
         width: 100%;
         font-family: "orbitron" , sans-serif;
     }
+
+    body p {
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+    }
     
     main {
         width: 100%;
@@ -50,7 +55,7 @@
     
     h2{
         text-align: center !important;
-        font-size: 1.5rem !important;
+        font-size: 1rem !important;
     }
 
     h3{
@@ -138,7 +143,7 @@
     }
 
     .download{
-        margin: 20px 0;
+        margin-bottom: 20px !important;
         text-align: center !important;
     }
 
@@ -319,7 +324,7 @@ body {
 main {
     width: 100%;
     text-align: center !important;
-    margin: 0;
+    /* margin: 10px !important; */
 }
 
 div {
@@ -345,20 +350,22 @@ h1 {
 }
 
 p{
+    margin: 20px !important;
     color: white;
     text-align: center;
     font-size: 1.5rem;
 }
 
 h2{
+    margin: 20px !important;
     text-align: center;
 }
 
 img {
     text-align: center !important;
-    width: 80%;
+    width: 100% !important;
     border: solid 10px;
-    margin: 10px;
+    /* margin: 50px !important; */
 
 }
 
@@ -371,7 +378,7 @@ img {
 .detailsprojets {
     width: 100%;
     text-align: center;
-    margin: 50px;
+    
 }
 
 .projets h2 {
@@ -423,6 +430,6 @@ img {
 }
 
 .download{
-    margin: 30px;
+    margin: 30px !important;
 }
 }
