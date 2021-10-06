@@ -91,29 +91,30 @@
         <!-- Navbar -->
         <!-- Formulaire -->
         <main>
-            <section>
+            <section class="inputs">
                 <form class="Login">
                     <div class="Email">
-                        <p>E-mail</p>
-                        <input type="email">
+                        <label>E-mail</label>
+                        <div class="inputmail">
+                            <input id="mail" type="email">
+                        </div>
                     </div>
                     <div class="password">
-                        <p>Mot de passe</p>
-                        <input type="password">
+                        <label>Mot de passe</label>
+                        <div class="inputpass">
+                            <input id="pass" type="password">
+                        </div>
                     </div>
                     <div class="valider">
                         <a href="index.html"><button>Valider</button></a>
                     </div>
-                    <div class="check">
-                        <input type="checkbox" name="caseàcocher" id="case">
-                        <p>Rester connecté</p>
-                    </div>
                     <div class="mpoublié">
-                        <a href="#"><button>Mot de passe oublié</button></a>
+                        <a href="#"><button id="mpo">Mot de passe oublié</button></a>
                     </div>
                 </form>
             </section>
         </main>
+        <!-- Formulaire -->
         <!-- Pied de page -->
 
         <footer class="bg-light text-lg-start w-100" id="pied">

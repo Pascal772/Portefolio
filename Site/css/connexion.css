@@ -1,5 +1,9 @@
-body {
+* {
     box-sizing: border-box;
+}
+
+body {
+    
 }
 
 a {
@@ -9,8 +13,10 @@ a {
 /* Height for devices larger jusqu'à 759px */
 
 @media (max-width: 759px) {
+
+
     body {
-        box-sizing: border-box;
+        
     }
 
     #navbarToggleExternalContent3 {
@@ -44,15 +50,6 @@ a {
         text-decoration: none !important;
     }
 
-    .login{
-        display: grid !important;
-        grid-columns: 1fr 1fr 1fr !important;
-        justify-items: center !important;
-    }
-
-    /* .email{
-        
-    } */
 
     #yout {
         background-color: black;
@@ -148,6 +145,34 @@ a {
     .navbar .nav-link {
         color: #fff !important;
     }
+
+    main {
+        margin: 0 ;
+    }
+
+    .inputs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .form{
+        width: 100%;
+        margin: 0;
+    }
+
+    .inputmail{
+        width: 100%;
+        margin: 0;
+    }
+
+    #mail{
+      
+    }
+
+   
    
 
     #yout {
