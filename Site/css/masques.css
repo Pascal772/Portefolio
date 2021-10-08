@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 #intro {
     height: 100vh;
 }
@@ -68,11 +72,10 @@
 /* Height for devices larger than 768px (entre 750 et 1000px) */
 
 @media (min-width: 750px) and (max-width: 1000px) {
-    
 
     #intro {
         margin-top: -58.59px;
-        background-image: url(../img/coutureciseauximage.jpg);
+        
     }
 
     .navbar .nav-link {
@@ -124,17 +127,43 @@
 }
 
 
-/* Height for devices larger than 576px (plus que 1001px) */
+/* Height for devices larger than 1001px (plus que 1001px) */
 @media (min-width: 1001px) {
+   
     #intro {
         margin-top: -58.59px;
         position: sticky;
     }
 
+    .navbar-nav{
+        width: 100% !important;
+    }
+
 
     .navbar .nav-link {
+        width: 100% !important;
         color: #fff !important;
+        /* text-align: left !important; */
+        
     }
+
+    .nav-item{
+        margin: 0;
+        /* width: 100%; */
+        text-align: left !important;
+    }
+
+    #fondnavbar{
+        background-color: #586a7b !important;
+    }
+
+    .titre{
+        width: 100%;
+        color: white;
+        text-align: center;
+       
+    }
+
 
     #gridimg {
 
@@ -144,6 +173,7 @@
         padding-left: 0;
         align-items: stretch;
         width: 100%;
+        
 
 
 
@@ -156,7 +186,8 @@
         width: 250px;
         margin-left: 0;
         margin-top: 0;
-        background-color: #4F4F4F;
+        background-color: #586a7b;
+        
     }
 
     #collat {
@@ -165,7 +196,7 @@
         width: 250px;
         margin-left: 0;
         margin-top: 0;
-        background-color: #4F4F4F;
+        background-color: #586a7b;;
 
     }
 
@@ -187,6 +218,10 @@
 
         text-align: center !important;
         color: white;
+    }
+
+    .descrip{
+        text-align: center;
     }
 
     #yout {

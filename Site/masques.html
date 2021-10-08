@@ -15,7 +15,6 @@
   <!-- Custom styles -->
   <link rel="stylesheet" href="css/bootstrap.css" />
   <link rel="stylesheet" href="css/masques.css" />
-  <link rel="stylesheet" href="moncss.css">
   <!-- MDB -->
   <script type="text/javascript" src="js/sign_in.js" defer></script>
   <script src="js/mdb.min.js" defer></script>
@@ -45,21 +44,20 @@
     <!-- Menu Burger -->
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark d-none d-lg-block bg-dark" style="z-index: 2000;">
+    <nav class="navbar navbar-expand-lg navbar-dark d-none d-lg-block bg-dark" id="fondnavbar" style="z-index: 2000;">
       <div class="container-fluid">
         <!-- Navbar brand -->
-        <a class="navbar-brand nav-link" target="_blank" href="https://mdbootstrap.com/docs/standard/">
-          <strong></strong>
-        </a>
-        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
-          aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
+
+
+        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbar"
+          aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
           <i class="fas fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarExample01">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item active">
               <a class="nav-link" aria-current="page" href="index.html">Acceuil</a>
-              <!-- <img src="img/coutureciseauximage.jpg"> -->
+
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#" rel="nofollow" target="_blank">Mon compte</a>
@@ -68,7 +66,9 @@
               <a class="nav-link" href="#" target="_blank">Mon panier</a>
             </li>
           </ul>
-
+          <div class="titre" id="h1">
+            <h1>MASQUES</h1>
+          </div>
           <ul class="navbar-nav d-flex flex-row">
             <!-- Icons -->
             <li class="nav-item me-3 me-lg-0">
@@ -107,7 +107,7 @@
     <div class="collat" id="parentscollat">
       <div class="contenu collat" id="collat">
         <input type="search" placeholder="Recherche produits">
-        <h1 class="text" id="titre">PRODUITS</h1>
+        <h2 class="text" id="titre">PRODUITS</h2>
         <a href="produits.html">
           <p class="text" id="produits">Masques</p>
         </a>
@@ -124,26 +124,58 @@
     </div>
     <!-- Colonne lattérale gauche -->
     <div class="row" id="colimg">
-      <div class="col-sm-6 col-lg-3"><img src="img/masques2.jpg" class="w-100 m-2 m-lg-5" alt=""></div>
-      <div class="col-sm-6 col-lg-3"><img src="img/masques2.jpg" class="w-100 m-2 m-lg-5" alt=""></div>
-      <div class="col-sm-6 col-lg-3"><img src="img/masques2.jpg" class="w-100 m-2 m-lg-5" alt=""></div>
-      <div class="col-sm-6 col-lg-3"><img src="img/masques2.jpg" class="w-100 m-2 m-lg-5" alt=""></div>
+      <div class="col-sm-6 col-lg-3"><img src="img/masques2.jpg" class="w-100 m-2 m-lg-5" alt="">
+        <p class="descrip">Description</p>
+      </div>
+      <div class="col-sm-6 col-lg-3"><img src="img/masques2.jpg" class="w-100 m-2 m-lg-5" alt="">
+        <p class="descrip">Description</p>
+      </div>
+      <div class="col-sm-6 col-lg-3"><img src="img/masques2.jpg" class="w-100 m-2 m-lg-5" alt="">
+        <p class="descrip">Description</p>
+      </div>
+      <div class="col-sm-6 col-lg-3"><img src="img/masques2.jpg" class="w-100 m-2 m-lg-5" alt="">
+        <p class="descrip">Description</p>
+      </div>
 
-      <div class="col-sm-6 col-lg-3"><img src="img/image17.png" class="w-100 m-2 m-lg-5" alt=""></div>
-      <div class="col-sm-6 col-lg-3"><img src="img/image17.png" class="w-100 m-2 m-lg-5" alt=""></div>
-      <div class="col-sm-6 col-lg-3"><img src="img/image17.png" class="w-100 m-2 m-lg-5" alt=""></div>
-      <div class="col-sm-6 col-lg-3"><img src="img/image17.png" class="w-100 m-2 m-lg-5" alt=""></div>
+      <div class="col-sm-6 col-lg-3"><img src="img/image17.png" class="w-100 m-2 m-lg-5" alt="">
+        <p class="descrip">Description</p>
+      </div>
+      <div class="col-sm-6 col-lg-3"><img src="img/image17.png" class="w-100 m-2 m-lg-5" alt="">
+        <p class="descrip">Description</p>
+      </div>
+      <div class="col-sm-6 col-lg-3"><img src="img/image17.png" class="w-100 m-2 m-lg-5" alt="">
+        <p class="descrip">Description</p>
+      </div>
+      <div class="col-sm-6 col-lg-3"><img src="img/image17.png" class="w-100 m-2 m-lg-5" alt="">
+        <p class="descrip">Description</p>
+      </div>
 
-      <div class="col-sm-6 col-lg-3"><img src="img/masques3.jpg" class="w-100 m-2 m-lg-5" alt=""></div>
-      <div class="col-sm-6 col-lg-3"><img src="img/masques3.jpg" class="w-100 m-2 m-lg-5" alt=""></div>
-      <div class="col-sm-6 col-lg-3"><img src="img/masques3.jpg" class="w-100 m-2 m-lg-5" alt=""></div>
-      <div class="col-sm-6 col-lg-3"><img src="img/masques3.jpg" class="w-100 m-2 m-lg-5" alt=""></div>
+      <div class="col-sm-6 col-lg-3"><img src="img/masques3.jpg" class="w-100 m-2 m-lg-5" alt="">
+        <p class="descrip">Description</p>
+      </div>
+      <div class="col-sm-6 col-lg-3"><img src="img/masques3.jpg" class="w-100 m-2 m-lg-5" alt="">
+        <p class="descrip">Description</p>
+      </div>
+      <div class="col-sm-6 col-lg-3"><img src="img/masques3.jpg" class="w-100 m-2 m-lg-5" alt="">
+        <p class="descrip">Description</p>
+      </div>
+      <div class="col-sm-6 col-lg-3"><img src="img/masques3.jpg" class="w-100 m-2 m-lg-5" alt="">
+        <p class="descrip">Description</p>
+      </div>
 
       <div class="row" id="colimg"></div>
-      <div class="col-sm-6 col-lg-3"><img src="img/masquesenf1.png" class="w-100 m-2 m-lg-5" alt=""></div>
-      <div class="col-sm-6 col-lg-3"><img src="img/masquesenf1.png" class="w-100 m-2 m-lg-5" alt=""></div>
-      <div class="col-sm-6 col-lg-3"><img src="img/masquesenf1.png" class="w-100 m-2 m-lg-5" alt=""></div>
-      <div class="col-sm-6 col-lg-3"><img src="img/masquesenf1.png" class="w-100 m-2 m-lg-5" alt=""></div>
+      <div class="col-sm-6 col-lg-3"><img src="img/masquesenf1.png" class="w-100 m-2 m-lg-5" alt="">
+        <p class="descrip">Description</p>
+      </div>
+      <div class="col-sm-6 col-lg-3"><img src="img/masquesenf1.png" class="w-100 m-2 m-lg-5" alt="">
+        <p class="descrip">Description</p>
+      </div>
+      <div class="col-sm-6 col-lg-3"><img src="img/masquesenf1.png" class="w-100 m-2 m-lg-5" alt="">
+        <p class="descrip">Description</p>
+      </div>
+      <div class="col-sm-6 col-lg-3"><img src="img/masquesenf1.png" class="w-100 m-2 m-lg-5" alt="">
+        <p class="descrip">Description</p>
+      </div>
     </div>
   </div>
 
