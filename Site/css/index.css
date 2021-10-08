@@ -194,11 +194,10 @@ a {
 
 /* Height for devices larger than 900px */
 @media (min-width: 900px) {
-    body {
+    *{
         box-sizing: border-box;
     }
-
-    
+   
 
     #intro {
         margin-top: -58.59px;
@@ -207,6 +206,14 @@ a {
 
     .navbar .nav-link {
         color: #fff !important;
+    }
+
+    #fondnavbar{
+        background-color: #586a7b !important;
+    }
+
+    #navbar{
+        background-color: #586a7b !important;
     }
 
     .titreindex {
@@ -257,7 +264,7 @@ a {
         width: 250px;
         margin-left: 0;
         margin-top: 0;
-        background-color: #4F4F4F;
+        background-color: #586a7b;
     }
 
     #collat {
