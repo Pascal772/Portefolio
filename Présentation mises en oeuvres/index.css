@@ -42,7 +42,7 @@
     
     h1 {
         margin: 0;
-        background-image: linear-gradient(to right,red,orange, yellow, red, orange, red, yellow,orange, red);
+        /* background-image: linear-gradient(to right,red,orange, yellow, red, orange, red, yellow,orange, red); */
         color: white;
         text-align: center;
     }
@@ -197,7 +197,7 @@ a p {
 h1 {
     width: 100% !important;
     margin: 0;
-    background-image: linear-gradient(to right, rgba(241, 241, 180, 0.966), yellow, red, orange, red, yellow, rgba(241, 241, 180, 0.966));
+    /* background-image: linear-gradient(to right, rgba(241, 241, 180, 0.966), yellow, red, orange, red, yellow, rgba(241, 241, 180, 0.966)); */
     color: white;
     text-align: center;
 }
@@ -324,7 +324,6 @@ body {
 main {
     width: 100%;
     text-align: center !important;
-    /* margin: 10px !important; */
 }
 
 div {
@@ -344,9 +343,13 @@ a p {
 
 h1 {
     margin: 0;
-    background-image: linear-gradient(to right, rgba(241, 241, 180, 0.966), yellow, red, orange, red, yellow, rgba(241, 241, 180, 0.966));
     color: white;
-    text-align: center;
+    text-align: center !important;
+}
+
+.rea {
+    margin: 20px !important;
+    text-align: center !important;
 }
 
 p{
@@ -363,10 +366,13 @@ h2{
 
 img {
     text-align: center !important;
-    width: 100% !important;
+    width: 60% !important;
     border: solid 10px;
-    /* margin: 50px !important; */
+}
 
+.block1{
+   text-align: center !important;
+    width: 100%;
 }
 
 .projets {
@@ -388,7 +394,6 @@ img {
 .imgACS {
     text-align: center;
     border-color: #334087;
-
 }
 
 .imghotel {
@@ -409,7 +414,6 @@ img {
 }
 
 .imgmaqureprod {
-
     border-image: linear-gradient(#F04C06, #FF0000) 300;
 }
 
