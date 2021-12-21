@@ -5,6 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Image/Logo/Monlogos2.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Acceuil</title>
 </head>
@@ -12,36 +19,71 @@
 <body>
     <header class="nav">
         <nav class="navbar">
-            <div class="logocode">
-                <img src="Image/Logo/htmlcssjs.png" alt="Logo HTML JAVASCRIPT et CSS">
-                <img src="Image/Logo/icone bootstrap.png" alt="Icone BOOTSTRAP">
-                <img src="Image/Logo/php.svg" alt="Icone PHP">
+            <div class="logocodes">
+                <img class="logocode" src="Image/Logo/htmlcssjs.png" alt="Logo HTML JAVASCRIPT et CSS">
+                <img class="logocode" src="Image/Logo/icone bootstrap.png" alt="Icone BOOTSTRAP">
+                <img class="logocode" src="Image/Logo/php.svg" alt="Icone PHP">
             </div>
             <div class="logocentre">
-                <img src="Logo/Monlogos.png" alt="Logo Squale design">
+                <img src="Logo/Monlogos.png" alt="Logo Squale design" id="monlogo">
             </div>
-            <div class="burger">
-
-            </div>
+            <ul class="burger">
+                <a href="#">
+                    <li>COMPETENCES</li>
+                </a>
+                <a href="#">
+                    <li>PRESTATIONS</li>
+                </a>
+                <a href="#">
+                    <li>MES REALISATIONS</li>
+                </a>
+                <a href="#">
+                    <li>CONTACTS</li>
+                </a>
+            </ul>
         </nav>
     </header>
     <main>
         <section class="sec1">
             <div class="img1">
                 <img src="Image/CMS.jpg" alt="Photo résumant un CMS (content management system)">
-                <h1 id=titrecms>L<span id="sectitrecms">E</span><span id="fintitrecms">CMS utilisé</span></h1>
-                <img src="Images/Logo/wordpress.svg" alt="Logo WordPress">
+                <h1 id=titrecms>L<span id="lettre2cms">E</span> <span id="fincms">CMS utilisé</span></h1>
+                <img src="Image/WordPress.png" alt="Logo WordPress">
             </div>
-
         </section>
         <section class="sec2">
-
+            <div class="img2">
+                <img src="Image/Design.jpg" alt="Photo résumant un CMS (content management system)">
+                <h1 id=titredesign>L<span id="lettre2design">E</span> <span id="fintitrecms">DESIGN</span></h1>
+            </div>
+        </section>
+        <section class="sec3">
+            <h1 id="titrerea">M<span>E</span><span>S</span> <span>REALISATIONS</span></h1>
+            <article class="card1">
+                <a href="#"><img src="Image/Capture E-commerceWP.PNG"
+                        alt="Capture d'écran d'un site marchand en WordPress"></a>
+                <p></p>
+            </article>
+            <article class="card2">
+                <a href="#"><img src="Image/Capture TV Yonne projet 2.PNG"
+                        alt="Capture d'écran d'un site de la web tv, la TV de l'Yonne"></a>
+                <p></p>
+            </article>
+            <article class="card3">
+                <a href="#"><img src="Image/Capture Projet Hotel.PNG"
+                        alt="Capture d'écran d'un site de réservation d'hôtel en ligne"></a>
+                <p></p>
+            </article>
+            <article class="card4">
+                <a href="#"><img src="Image/Capture ACS Musique.PNG"
+                        alt="Capture d'écran d'une application de musique web pour mobils"></a>
+                <p></p>
         </section>
 
     </main>
     <footer class="foot">
         <div class="imgfoot">
-            <img src="Image/footer.svg" alt="pied de page" id= imagefooter>
+            <img src="Image/footer.svg" alt="pied de page" id=imagefooter>
         </div>
     </footer>
 
