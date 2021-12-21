@@ -1,0 +1,19 @@
+@media (min-width: 360px) and (max-width: 800px) {
+  body {
+    margin: 0%;
+    padding: 0%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  body .nav {
+    background-color: #d6d1d1;
+  }
+  body .foot {
+    margin: 0%;
+  }
+  body .foot .imgfoot #imagefooter {
+    margin: 0%;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
