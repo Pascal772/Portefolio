@@ -19,6 +19,13 @@
   }
   body .nav {
     background-color: #d6d1d1;
+    height: 15vh;
+  }
+  body .nav .navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 15vh;
   }
   body .nav .navbar .logocodes {
     display: -webkit-box;
@@ -34,47 +41,42 @@
     width: 35px;
     height: 35px;
   }
-  body .nav .navbar .logocodes .logocentre {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+  body .nav .navbar .logocentre {
+    width: 200px;
+    height: 200px;
   }
-  body .nav .navbar .logocodes .logocentre #monlogo {
-    width: 40px;
-    height: 40px;
+  body .nav .navbar .logocentre #monlogo {
+    width: 50%;
+    height: 50%;
   }
-  body .nav .navbar .burger {
+  body .nav .burger {
     list-style: none;
   }
-  body .nav .navbar .burger a {
+  body .nav .burger a {
     color: black;
   }
-  body #titrecms {
+  #titrecms {
     font-family: 'EB Garamond', sans-serif;
     color: #4C98CC;
   }
-  body #titrecms #lettre2cms {
+  #titrecms #lettre2cms {
     font-size: 2rem;
   }
-  body #titrecms #fincms {
+  #titrecms #fincms {
     color: black;
   }
-  body #titredesign {
+  #titredesign {
     font-family: 'EB Garamond', serif;
     color: #4C98CC;
   }
-  body #titrerea {
+  #titrerea {
     font-family: 'EB Garamond', sans-serif;
     color: #4C98CC;
   }
-  body .foot {
+  .foot {
     margin: 0%;
   }
-  body .foot .imgfoot #imagefooter {
+  .foot .imgfoot #imagefooter {
     margin: 0%;
     width: 100%;
   }

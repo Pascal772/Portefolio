@@ -21,9 +21,12 @@
 
         .nav {
             background-color: #d6d1d1;
+            height: 15vh;
 
             .navbar {
-                // height: 10vh;
+                display: flex;
+                height: 15vh;
+
 
 
                 .logocodes {
@@ -31,68 +34,71 @@
                     flex-direction: column;
                     margin-left: 10px;
 
+
                     .logocode {
                         width: 35px;
                         height: 35px;
                     }
-
-                    .logocentre {
-                        display: flex;
-                        flex-direction: column;
-
-                        #monlogo {
-                            width: 40px;
-                            height: 40px;
-                        }
-                    }
-
                 }
 
-                .burger {
-                    list-style: none;
+                .logocentre {
+                   
+                    width: 200px;
+                    height: 200px;
 
-                    a {
-                        color: black;
+                    #monlogo {
+                        width: 50%;
+                        height: 50%;
                     }
                 }
-            }
-        }
 
-        #titrecms {
-            font-family: 'EB Garamond', sans-serif;
-            color: #4C98CC;
-
-            #lettre2cms {
-                font-size: 2rem;
             }
 
-            #fincms {
-                color: black;
-            }
-        }
+            .burger {
+                list-style: none;
 
-        #titredesign {
-            font-family: 'EB Garamond', serif;
-            color: #4C98CC;
-        }
-
-        #titrerea {
-            font-family: 'EB Garamond', sans-serif;
-            color: #4C98CC;
-        }
-
-        .foot {
-            margin: 0%;
-
-            .imgfoot {
-
-                #imagefooter {
-                    margin: 0%;
-                    width: 100%;
+                a {
+                    color: black;
                 }
             }
         }
     }
+
+    #titrecms {
+        font-family: 'EB Garamond', sans-serif;
+        color: #4C98CC;
+
+        #lettre2cms {
+            font-size: 2rem;
+        }
+
+        #fincms {
+            color: black;
+        }
+    }
+
+    #titredesign {
+        font-family: 'EB Garamond', serif;
+        color: #4C98CC;
+    }
+
+    #titrerea {
+        font-family: 'EB Garamond', sans-serif;
+        color: #4C98CC;
+    }
+
+    .foot {
+        margin: 0%;
+
+        .imgfoot {
+
+            #imagefooter {
+                margin: 0%;
+                width: 100%;
+            }
+        }
+    }
 }
+
 
 @media (min-width: 801px) and (max-width: 1200px) {}
