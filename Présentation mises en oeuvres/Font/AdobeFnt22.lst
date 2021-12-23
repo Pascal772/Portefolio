@@ -1,0 +1,714 @@
+%!Adobe-FontList 1.22
+%Locale:0x40c
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:EBGaramond-Italic
+FamilyName:EB Garamond
+StyleName:Italic
+FullName:EB Garamond Italic
+MenuName:EB Garamond
+FamilyPrefix:EBGaramondItalic
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Acs\Documents\GitHub\Moi\Portefolio\Présentation mises en oeuvres\Font\EDGaramond\EBGaramond-Italic-VariableFont_wght.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:TrueTypeVariableFont
+FileLength:805636
+FileModTime:1300834800
+WeightClass:400
+WidthClass:5
+AngleClass:1
+NameArray:0,Win,1,EB Garamond
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:EBGaramond-Regular
+FamilyName:EB Garamond
+StyleName:Regular
+FullName:EB Garamond Regular
+MenuName:EB Garamond
+FamilyPrefix:EBGaramondRoman
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Acs\Documents\GitHub\Moi\Portefolio\Présentation mises en oeuvres\Font\EDGaramond\EBGaramond-VariableFont_wght.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:TrueTypeVariableFont
+FileLength:929064
+FileModTime:1300834800
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,EB Garamond
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\Acs\Documents\GitHub\Moi\Portefolio\Présentation mises en oeuvres\Font\EDGaramond\EB_Garamond.zip
+FileModTime:1639556485
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\Acs\Documents\GitHub\Moi\Portefolio\Présentation mises en oeuvres\Font\EDGaramond\OFL.txt
+FileModTime:1300834800
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:EBGaramond-Bold
+FamilyName:EB Garamond
+StyleName:Bold
+FullName:EB Garamond Bold
+MenuName:EB Garamond
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\Acs\Documents\GitHub\Moi\Portefolio\Présentation mises en oeuvres\Font\EDGaramond\static\EBGaramond-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:563368
+FileModTime:1300834800
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,EB Garamond
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:EBGaramond-BoldItalic
+FamilyName:EB Garamond
+StyleName:Bold Italic
+FullName:EB Garamond Bold Italic
+MenuName:EB Garamond
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:C:\Users\Acs\Documents\GitHub\Moi\Portefolio\Présentation mises en oeuvres\Font\EDGaramond\static\EBGaramond-BoldItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:496196
+FileModTime:1300834800
+WeightClass:700
+WidthClass:5
+AngleClass:1
+NameArray:0,Win,1,EB Garamond
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:EBGaramond-ExtraBold
+FamilyName:EB Garamond
+StyleName:ExtraBold
+FullName:EB Garamond ExtraBold
+MenuName:EB Garamond ExtraBold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Acs\Documents\GitHub\Moi\Portefolio\Présentation mises en oeuvres\Font\EDGaramond\static\EBGaramond-ExtraBold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:562884
+FileModTime:1300834800
+WeightClass:800
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,EB Garamond ExtraBold
+NameArray:0,Win,16,EB Garamond
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:EBGaramond-ExtraBoldItalic
+FamilyName:EB Garamond
+StyleName:ExtraBold Italic
+FullName:EB Garamond ExtraBold Italic
+MenuName:EB Garamond ExtraBold
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Acs\Documents\GitHub\Moi\Portefolio\Présentation mises en oeuvres\Font\EDGaramond\static\EBGaramond-ExtraBoldItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:495352
+FileModTime:1300834800
+WeightClass:800
+WidthClass:5
+AngleClass:1
+NameArray:0,Win,1,EB Garamond ExtraBold
+NameArray:0,Win,16,EB Garamond
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:EBGaramond-Italic
+FamilyName:EB Garamond
+StyleName:Italic
+FullName:EB Garamond Italic
+MenuName:EB Garamond
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Acs\Documents\GitHub\Moi\Portefolio\Présentation mises en oeuvres\Font\EDGaramond\static\EBGaramond-Italic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:492544
+FileModTime:1300834800
+WeightClass:400
+WidthClass:5
+AngleClass:1
+NameArray:0,Win,1,EB Garamond
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:EBGaramond-Medium
+FamilyName:EB Garamond
+StyleName:Medium
+FullName:EB Garamond Medium
+MenuName:EB Garamond Medium
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Acs\Documents\GitHub\Moi\Portefolio\Présentation mises en oeuvres\Font\EDGaramond\static\EBGaramond-Medium.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:563444
+FileModTime:1300834800
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,EB Garamond Medium
+NameArray:0,Win,16,EB Garamond
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:EBGaramond-MediumItalic
+FamilyName:EB Garamond
+StyleName:Medium Italic
+FullName:EB Garamond Medium Italic
+MenuName:EB Garamond Medium
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Acs\Documents\GitHub\Moi\Portefolio\Présentation mises en oeuvres\Font\EDGaramond\static\EBGaramond-MediumItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:495680
+FileModTime:1300834800
+WeightClass:500
+WidthClass:5
+AngleClass:1
+NameArray:0,Win,1,EB Garamond Medium
+NameArray:0,Win,16,EB Garamond
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:EBGaramond-Regular
+FamilyName:EB Garamond
+StyleName:Regular
+FullName:EB Garamond Regular
+MenuName:EB Garamond
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Acs\Documents\GitHub\Moi\Portefolio\Présentation mises en oeuvres\Font\EDGaramond\static\EBGaramond-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:560560
+FileModTime:1300834800
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,EB Garamond
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:EBGaramond-SemiBold
+FamilyName:EB Garamond
+StyleName:SemiBold
+FullName:EB Garamond SemiBold
+MenuName:EB Garamond SemiBold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Acs\Documents\GitHub\Moi\Portefolio\Présentation mises en oeuvres\Font\EDGaramond\static\EBGaramond-SemiBold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:563736
+FileModTime:1300834800
+WeightClass:600
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,EB Garamond SemiBold
+NameArray:0,Win,16,EB Garamond
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:EBGaramond-SemiBoldItalic
+FamilyName:EB Garamond
+StyleName:SemiBold Italic
+FullName:EB Garamond SemiBold Italic
+MenuName:EB Garamond SemiBold
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Acs\Documents\GitHub\Moi\Portefolio\Présentation mises en oeuvres\Font\EDGaramond\static\EBGaramond-SemiBoldItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:496400
+FileModTime:1300834800
+WeightClass:600
+WidthClass:5
+AngleClass:1
+NameArray:0,Win,1,EB Garamond SemiBold
+NameArray:0,Win,16,EB Garamond
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\Acs\Documents\GitHub\Moi\Portefolio\Présentation mises en oeuvres\Font\Prompt\OFL.txt
+FileModTime:1465938000
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Prompt-Black
+FamilyName:Prompt
+StyleName:Black
+FullName:Prompt-Black
+MenuName:Prompt Black
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Acs\Documents\GitHub\Moi\Portefolio\Présentation mises en oeuvres\Font\Prompt\Prompt-Black.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:170136
+FileModTime:1465938000
+WeightClass:900
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Prompt Black
+NameArray:0,Win,16,Prompt
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Prompt-BlackItalic
+FamilyName:Prompt
+StyleName:Black Italic
+FullName:Prompt Black Italic
+MenuName:Prompt Black
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Acs\Documents\GitHub\Moi\Portefolio\Présentation mises en oeuvres\Font\Prompt\Prompt-BlackItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:192724
+FileModTime:1465938000
+WeightClass:900
+WidthClass:5
+AngleClass:1
+NameArray:0,Win,1,Prompt Black
+NameArray:0,Win,16,Prompt
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Prompt-Bold
+FamilyName:Prompt
+StyleName:Bold
+FullName:Prompt Bold
+MenuName:Prompt
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\Acs\Documents\GitHub\Moi\Portefolio\Présentation mises en oeuvres\Font\Prompt\Prompt-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:172528
+FileModTime:1465938000
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Prompt
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Prompt-BoldItalic
+FamilyName:Prompt
+StyleName:Bold Italic
+FullName:Prompt Bold Bold Italic
+MenuName:Prompt Bold
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:C:\Users\Acs\Documents\GitHub\Moi\Portefolio\Présentation mises en oeuvres\Font\Prompt\Prompt-BoldItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:180128
+FileModTime:1465938000
+WeightClass:700
+WidthClass:5
+AngleClass:1
+NameArray:0,Win,1,Prompt Bold
+NameArray:0,Win,16,Prompt
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Prompt-ExtraBold
+FamilyName:Prompt
+StyleName:ExtraBold
+FullName:Prompt-ExtraBold
+MenuName:Prompt ExtraBold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Acs\Documents\GitHub\Moi\Portefolio\Présentation mises en oeuvres\Font\Prompt\Prompt-ExtraBold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:169920
+FileModTime:1465938000
+WeightClass:800
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Prompt ExtraBold
+NameArray:0,Win,16,Prompt
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Prompt-ExtraBoldItalic
+FamilyName:Prompt
+StyleName:ExtraBold Italic
+FullName:Prompt ExtraBold Italic
+MenuName:Prompt ExtraBold
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Acs\Documents\GitHub\Moi\Portefolio\Présentation mises en oeuvres\Font\Prompt\Prompt-ExtraBoldItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:180324
+FileModTime:1465938000
+WeightClass:800
+WidthClass:5
+AngleClass:1
+NameArray:0,Win,1,Prompt ExtraBold
+NameArray:0,Win,16,Prompt
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Prompt-ExtraLight
+FamilyName:Prompt
+StyleName:ExtraLight
+FullName:Prompt-ExtraLight
+MenuName:Prompt ExtraLight
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Acs\Documents\GitHub\Moi\Portefolio\Présentation mises en oeuvres\Font\Prompt\Prompt-ExtraLight.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:157380
+FileModTime:1465938000
+WeightClass:275
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Prompt ExtraLight
+NameArray:0,Win,16,Prompt
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Prompt-ExtraLightItalic
+FamilyName:Prompt
+StyleName:ExtraLight Italic
+FullName:Prompt ExtraLight Italic
+MenuName:Prompt ExtraLight
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Acs\Documents\GitHub\Moi\Portefolio\Présentation mises en oeuvres\Font\Prompt\Prompt-ExtraLightItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:168892
+FileModTime:1465938000
+WeightClass:275
+WidthClass:5
+AngleClass:1
+NameArray:0,Win,1,Prompt ExtraLight
+NameArray:0,Win,16,Prompt
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Prompt-Italic
+FamilyName:Prompt
+StyleName:Italic
+FullName:Prompt Italic
+MenuName:Prompt
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Acs\Documents\GitHub\Moi\Portefolio\Présentation mises en oeuvres\Font\Prompt\Prompt-Italic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:172860
+FileModTime:1465938000
+WeightClass:400
+WidthClass:5
+AngleClass:1
+NameArray:0,Win,1,Prompt
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Prompt-Light
+FamilyName:Prompt
+StyleName:Light
+FullName:Prompt-Light
+MenuName:Prompt Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Acs\Documents\GitHub\Moi\Portefolio\Présentation mises en oeuvres\Font\Prompt\Prompt-Light.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:155724
+FileModTime:1465938000
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Prompt Light
+NameArray:0,Win,16,Prompt
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Prompt-LightItalic
+FamilyName:Prompt
+StyleName:Light Italic
+FullName:Prompt Light Italic
+MenuName:Prompt Light
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Acs\Documents\GitHub\Moi\Portefolio\Présentation mises en oeuvres\Font\Prompt\Prompt-LightItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:166008
+FileModTime:1465938000
+WeightClass:300
+WidthClass:5
+AngleClass:1
+NameArray:0,Win,1,Prompt Light
+NameArray:0,Win,16,Prompt
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Prompt-Medium
+FamilyName:Prompt
+StyleName:Medium
+FullName:Prompt-Medium
+MenuName:Prompt Medium
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Acs\Documents\GitHub\Moi\Portefolio\Présentation mises en oeuvres\Font\Prompt\Prompt-Medium.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:170148
+FileModTime:1465938000
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Prompt Medium
+NameArray:0,Win,16,Prompt
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Prompt-MediumItalic
+FamilyName:Prompt
+StyleName:Medium Italic
+FullName:Prompt Medium Italic
+MenuName:Prompt Medium
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Acs\Documents\GitHub\Moi\Portefolio\Présentation mises en oeuvres\Font\Prompt\Prompt-MediumItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:177560
+FileModTime:1465938000
+WeightClass:500
+WidthClass:5
+AngleClass:1
+NameArray:0,Win,1,Prompt Medium
+NameArray:0,Win,16,Prompt
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Prompt-Regular
+FamilyName:Prompt
+StyleName:Regular
+FullName:Prompt-Regular
+MenuName:Prompt
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Acs\Documents\GitHub\Moi\Portefolio\Présentation mises en oeuvres\Font\Prompt\Prompt-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:162624
+FileModTime:1465938000
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Prompt
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Prompt-SemiBold
+FamilyName:Prompt
+StyleName:SemiBold
+FullName:Prompt-SemiBold
+MenuName:Prompt SemiBold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Acs\Documents\GitHub\Moi\Portefolio\Présentation mises en oeuvres\Font\Prompt\Prompt-SemiBold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:169024
+FileModTime:1465938000
+WeightClass:600
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Prompt SemiBold
+NameArray:0,Win,16,Prompt
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Prompt-SemiBoldItalic
+FamilyName:Prompt
+StyleName:SemiBold Italic
+FullName:Prompt Semibold Italic
+MenuName:Prompt Semibold
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Acs\Documents\GitHub\Moi\Portefolio\Présentation mises en oeuvres\Font\Prompt\Prompt-SemiBoldItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:178748
+FileModTime:1465938000
+WeightClass:600
+WidthClass:5
+AngleClass:1
+NameArray:0,Win,1,Prompt Semibold
+NameArray:0,Win,16,Prompt
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Prompt-Thin
+FamilyName:Prompt
+StyleName:Thin
+FullName:Prompt-Thin
+MenuName:Prompt Thin
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Acs\Documents\GitHub\Moi\Portefolio\Présentation mises en oeuvres\Font\Prompt\Prompt-Thin.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:158176
+FileModTime:1465938000
+WeightClass:250
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Prompt Thin
+NameArray:0,Win,16,Prompt
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Prompt-ThinItalic
+FamilyName:Prompt
+StyleName:Thin Italic
+FullName:Prompt Thin Italic
+MenuName:Prompt Thin
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Acs\Documents\GitHub\Moi\Portefolio\Présentation mises en oeuvres\Font\Prompt\Prompt-ThinItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:169700
+FileModTime:1465938000
+WeightClass:250
+WidthClass:5
+AngleClass:1
+NameArray:0,Win,1,Prompt Thin
+NameArray:0,Win,16,Prompt
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\Acs\Documents\GitHub\Moi\Portefolio\Présentation mises en oeuvres\Font\Prompt\Prompt.zip
+FileModTime:1639580635
+%EndFont
+

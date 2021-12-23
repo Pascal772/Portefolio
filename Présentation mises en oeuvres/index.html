@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
     <title>Acceuil</title>
 </head>
 
@@ -25,9 +26,12 @@
                 <img class="logocode" src="Image/Logo/php.svg" alt="Icone PHP">
             </div>
             <div class="logocentre">
-                <img src="Logo/Monlogos2.png" alt="Logo Squale design" id="monlogo">
+                <img src="Monlogo.png" alt="Logo Squale design" id="monlogo">
             </div>
-            <ul class="burger">
+            <div id="burger">
+                <span class="iconify" data-icon="ci:hamburger" id="iconeburg"></span>
+            </div>
+            <ul class="liste">
                 <a href="#">
                     <li>COMPETENCES</li>
                 </a>
@@ -44,42 +48,66 @@
         </nav>
     </header>
     <main>
-        <section class="sec1">
-            <div class="img1">
+        <section class="section1">
+            <section class="imgcms">
                 <img src="Image/CMS.jpg" alt="Photo résumant un CMS (content management system)">
-                <h1 id=titrecms>L<span id="lettre2cms">E</span> <span id="fincms">CMS utilisé</span></h1>
-                <img src="Image/WordPress.png" alt="Logo WordPress">
-            </div>
+            </section>
+            <section class="blockwp">
+                <div class="case2">
+                    <h1 id=titrecms>L<span id="lettre2cms">E</span> <span id="fincms">CMS utilisé</span></h1>
+                    <img src="Image/WordPress.png" alt="Logo WordPress" id="logowp">
+                </div>
+            </section>
+            <p class="textillus">WordPress est un outil développé en PHP, un langage qui permet d'allier le HTML, CSS et
+                des algorithmes d'appels auprès d'une base de données.</p>
         </section>
-        <section class="sec2">
-            <div class="img2">
+        <section class="section2">
+            <section class="img2">
                 <img src="Image/Design.jpg" alt="Photo résumant un CMS (content management system)">
-                <h1 id=titredesign>L<span id="lettre2design">E</span> <span id="fintitrecms">DESIGN</span></h1>
-            </div>
+            </section>
+            <section class="blockdesign">
+                <div>
+                    <h1 id=titredesign>L<span id="lettre2design">E</span> <span id="findesign">DESIGN</span></h1>
+                </div>
+            </section>
+            <p class="textillus">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga cum perspiciatis
+                deserunt
+                quas rem inventore
+                excepturi.</p>
         </section>
-        <section class="sec3">
-            <h1 id="titrerea">M<span>E</span><span>S</span> <span>REALISATIONS</span></h1>
-            <article class="card1">
-                <a href="#"><img src="Image/Capture E-commerceWP.PNG"
-                        alt="Capture d'écran d'un site marchand en WordPress"></a>
-                <p></p>
+        <section class="section3">
+            <h1 id="titrerea">M<span id="lettre2rea">E</span><span>S</span> <span id="finrea">REALISATIONS</span></h1>
+            <article class="card">
+                <figure class="imgcard">
+                    <a href="#" class="imagecard"><img src="Image/Capture E-commerceWP.PNG"
+                            alt="Capture d'écran d'un site marchand en WordPress"></a>
+                </figure>
+                    <h2>E<span>-commerc</span>E<span class="fincard"> WordPress</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique voluptatum vel libero officiis
+                    inventore illo a esse mollitia magni ipsum sint veniam, quis praesentium labore. Blanditiis eius
+                    inventore soluta sequi.</p>
             </article>
-            <article class="card2">
-                <a href="#"><img src="Image/Capture TV Yonne projet 2.PNG"
-                        alt="Capture d'écran d'un site de la web tv, la TV de l'Yonne"></a>
-                <p></p>
+            <article class="card">
+                <figure class="imgcard">
+                    <a href="#" class="imagecard"><img src="Image/Capture TV Yonne projet 2.PNG"
+                            alt="Capture d'écran d'un site de webTV"></a>
+                </figure>
+                    <h2>L<span>a</span>TV<span class="fincard"> de l'Yonne</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique voluptatum vel libero officiis
+                    inventore illo a esse mollitia magni ipsum sint veniam, quis praesentium labore. Blanditiis eius
+                    inventore soluta sequi.</p>
             </article>
-            <article class="card3">
-                <a href="#"><img src="Image/Capture Projet Hotel.PNG"
-                        alt="Capture d'écran d'un site de réservation d'hôtel en ligne"></a>
-                <p></p>
+            <article class="card">
+                <figure class="imgcard" id="acs">
+                    <a href="#" class="imagecard"><img src="Image/Capture ACS Musique.PNG"
+                            alt="Capture d'écran d'une application de musique en interface web"></a>
+                </figure>
+                    <h2>A<span>pplicatio</span>N<span class="fincard"> Musique</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique voluptatum vel libero officiis
+                    inventore illo a esse mollitia magni ipsum sint veniam, quis praesentium labore. Blanditiis eius
+                    inventore soluta sequi.</p>
             </article>
-            <article class="card4">
-                <a href="#"><img src="Image/Capture ACS Musique.PNG"
-                        alt="Capture d'écran d'une application de musique web pour mobils"></a>
-                <p></p>
         </section>
-
     </main>
     <footer class="foot">
         <div class="imgfoot">
