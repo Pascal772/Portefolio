@@ -91,6 +91,64 @@
   body .nav .navbar .liste a {
     color: black;
   }
+  body main .section1comp #titrecomp {
+    font-style: italic;
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+    color: #4C98CC;
+    background-color: #d6d1d1;
+  }
+  body main .section1comp #titrecomp #lettre2comp {
+    font-size: 2rem;
+  }
+  body main .section1comp #titrecomp #fincomp {
+    color: black;
+  }
+  body main .section2comp {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    margin: 10px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body main .section2comp .plan .imgcomp {
+    width: 100px;
+    height: 100px;
+  }
+  body main .section2comp .titrecrea {
+    text-align: center;
+  }
+  body main .section2comp .titrecrea #titrecrea {
+    font-style: italic;
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+    color: #4C98CC;
+  }
+  body main .section2comp .titrecrea #titrecrea #lettre1crea {
+    font-family: 'Prompt', sans-serif;
+    font-style: italic;
+    font-size: 2rem;
+  }
+  body main .section2comp .titrecrea #titrecrea #lettre2crea {
+    font-style: italic;
+    font-family: 'Prompt', sans-serif;
+    color: #4C98CC;
+  }
+  body main .section2comp .titrecrea #titrecrea #lettre3crea {
+    font-family: 'Prompt', sans-serif;
+    font-style: italic;
+    font-size: 2rem;
+  }
+  body main .section2comp .titrecrea #titrecrea #fincrea {
+    font-family: 'Prompt', sans-serif;
+    color: black;
+  }
   body main .section1 {
     display: -ms-grid;
     display: grid;
@@ -260,13 +318,10 @@
     width: 10%;
     height: 100%;
     cursor: pointer;
-    position: relative;
   }
   body .nav .navbar #burger #iconeburger {
     width: 100%;
     height: 100%;
-    position: absolute;
-    top: 3% !important;
   }
   body .nav .navbar .liste {
     display: none;
