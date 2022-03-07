@@ -91,64 +91,6 @@
   body .nav .navbar .liste a {
     color: black;
   }
-  body main .section1comp #titrecomp {
-    font-style: italic;
-    text-align: center;
-    font-family: 'Prompt', sans-serif;
-    color: #4C98CC;
-    background-color: #d6d1d1;
-  }
-  body main .section1comp #titrecomp #lettre2comp {
-    font-size: 2rem;
-  }
-  body main .section1comp #titrecomp #fincomp {
-    color: black;
-  }
-  body main .section2comp {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
-    margin: 10px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  body main .section2comp .plan .imgcomp {
-    width: 100px;
-    height: 100px;
-  }
-  body main .section2comp .titrecrea {
-    text-align: center;
-  }
-  body main .section2comp .titrecrea #titrecrea {
-    font-style: italic;
-    text-align: center;
-    font-family: 'Prompt', sans-serif;
-    color: #4C98CC;
-  }
-  body main .section2comp .titrecrea #titrecrea #lettre1crea {
-    font-family: 'Prompt', sans-serif;
-    font-style: italic;
-    font-size: 2rem;
-  }
-  body main .section2comp .titrecrea #titrecrea #lettre2crea {
-    font-style: italic;
-    font-family: 'Prompt', sans-serif;
-    color: #4C98CC;
-  }
-  body main .section2comp .titrecrea #titrecrea #lettre3crea {
-    font-family: 'Prompt', sans-serif;
-    font-style: italic;
-    font-size: 2rem;
-  }
-  body main .section2comp .titrecrea #titrecrea #fincrea {
-    font-family: 'Prompt', sans-serif;
-    color: black;
-  }
   body main .section1 {
     display: -ms-grid;
     display: grid;
@@ -250,6 +192,175 @@
   }
   body main .card .fincard {
     color: black;
+  }
+  body main .section1comp #titrecomp {
+    font-style: italic;
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+    color: #4C98CC;
+    background-color: #d6d1d1;
+  }
+  body main .section1comp #titrecomp #lettre2comp {
+    font-size: 2rem;
+  }
+  body main .section1comp #titrecomp #fincomp {
+    color: black;
+  }
+  body main .section2comp {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    margin: 10px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body main .section2comp .plan {
+    width: 120px !important;
+    margin: 0% !important;
+  }
+  body main .section2comp .plan .imgcomp {
+    width: 100% !important;
+  }
+  body main .section2comp .titres {
+    text-align: center;
+  }
+  body main .section2comp .titres #titrecrea {
+    font-style: italic;
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+    color: #4C98CC;
+  }
+  body main .section2comp .titres #titrecrea #lettre1crea {
+    font-family: 'Prompt', sans-serif;
+    font-style: italic;
+    font-size: 2rem;
+  }
+  body main .section2comp .titres #titrecrea #lettre2crea {
+    font-style: italic;
+    font-family: 'Prompt', sans-serif;
+    color: #4C98CC;
+  }
+  body main .section2comp .titres #titrecrea #lettre3crea {
+    font-family: 'Prompt', sans-serif;
+    font-style: italic;
+    font-size: 2rem;
+  }
+  body main .section2comp .titres #titrecrea #fincrea {
+    font-family: 'Prompt', sans-serif;
+    color: black;
+  }
+  body main .texteilluscrea {
+    margin: 8px;
+  }
+  body main .section3choixc {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    margin: 10px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body main .section3choixc .couleurs {
+    width: 120px !important;
+    margin: 0% !important;
+  }
+  body main .section3choixc .couleurs .imgcouleurs {
+    width: 100% !important;
+  }
+  body main .section3choixc #titrechoixc {
+    font-style: italic;
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+    color: #4C98CC;
+  }
+  body main .section3choixc #titrechoixc #lettre1choix {
+    font-family: 'Prompt', sans-serif;
+    font-style: italic;
+    font-size: 2rem;
+  }
+  body main .section3choixc #titrechoixc #lettre2choix {
+    font-style: italic;
+    font-family: 'Prompt', sans-serif;
+    color: #4C98CC;
+  }
+  body main .section3choixc #titrechoixc #lettre3choix {
+    font-family: 'Prompt', sans-serif;
+    font-style: italic;
+    font-size: 2rem;
+  }
+  body main .section3choixc #titrechoixc #finchoix {
+    font-family: 'Prompt', sans-serif;
+    color: black;
+  }
+  body main .texteilluschoix {
+    margin: 8px;
+  }
+  body main .section4crealogo {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    margin: 10px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body main .section4crealogo .logo {
+    width: 120px !important;
+    margin: 0% !important;
+  }
+  body main .section4crealogo .logo .imglogo {
+    width: 100% !important;
+  }
+  body main .section4crealogo .titres {
+    text-align: center;
+  }
+  body main .section4crealogo .titres #titrecrealogo {
+    font-style: italic;
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+    color: #4C98CC;
+  }
+  body main .section4crealogo .titres #titrecrealogo #lettre1crealogo {
+    font-family: 'Prompt', sans-serif;
+    font-style: italic;
+    font-size: 2rem;
+  }
+  body main .section4crealogo .titres #titrecrealogo #lettre2crealogo {
+    font-style: italic;
+    font-family: 'Prompt', sans-serif;
+    color: #4C98CC;
+  }
+  body main .section4crealogo .titres #titrecrealogo #lettre3crealogo {
+    font-family: 'Prompt', sans-serif;
+    font-style: italic;
+    font-size: 2rem;
+  }
+  body main .section4crealogo .titres #titrecrealogo #fincrealogo {
+    font-family: 'Prompt', sans-serif;
+    color: black;
+  }
+  body main .texteilluscrealogo {
+    margin: 8px;
+  }
+  body main .texteillusoptiref {
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 30px;
   }
   body .foot {
     margin: 0%;

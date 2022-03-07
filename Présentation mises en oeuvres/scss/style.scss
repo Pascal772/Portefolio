@@ -103,82 +103,6 @@
         // Header
         // Main
         main {
-            .section1comp {
-
-                #titrecomp {
-                    font-style: italic;
-                    text-align: center;
-                    font-family: 'Prompt', sans-serif;
-                    color: #4C98CC;
-                    background-color: #d6d1d1;
-
-
-                    #lettre2comp {
-                        font-size: 2rem;
-                    }
-
-                    #fincomp {
-                        color: black;
-                    }
-                }
-            }
-
-            .section2comp {
-                display: grid;
-                grid-template-columns: repeat(2, 1fr);
-                margin: 10px;
-                justify-content: center;
-                align-items: center;
-               
-
-                .plan {
-
-                    .imgcomp {
-                        width: 100px;
-                        height: 100px;
-                    }
-
-                }
-
-
-
-                .titrecrea {
-
-                     text-align: center;
-
-                    #titrecrea {
-                        font-style: italic;
-                        text-align: center;
-                        font-family: 'Prompt', sans-serif;
-                        color: #4C98CC;
-
-                        #lettre1crea {
-                            font-family: 'Prompt', sans-serif;
-                            font-style: italic;
-                            font-size: 2rem;
-                        }
-
-
-                        #lettre2crea {
-                            font-style: italic;
-                            font-family: 'Prompt', sans-serif;
-                            color: #4C98CC;
-                        }
-
-                        #lettre3crea {
-                            font-family: 'Prompt', sans-serif;
-                            font-style: italic;
-                            font-size: 2rem;
-                        }
-
-                        #fincrea {
-                            font-family: 'Prompt', sans-serif;
-                            color: black;
-                        }
-                    }
-                }
-            }
-
             .section1 {
                 display: grid;
                 grid-template-columns: repeat(2, 1fr);
@@ -295,6 +219,211 @@
                 .fincard {
                     color: black;
                 }
+            }
+
+            .section1comp {
+
+                #titrecomp {
+                    font-style: italic;
+                    text-align: center;
+                    font-family: 'Prompt', sans-serif;
+                    color: #4C98CC;
+                    background-color: #d6d1d1;
+
+
+                    #lettre2comp {
+                        font-size: 2rem;
+                    }
+
+                    #fincomp {
+                        color: black;
+                    }
+                }
+            }
+
+            .section2comp {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                margin: 10px;
+                justify-content: center;
+                align-items: center;
+
+
+                .plan {
+                    width: 120px !important;
+                    margin: 0% !important;
+
+                    .imgcomp {
+                        width: 100% !important;
+
+                    }
+
+                }
+
+
+
+                .titres {
+
+                    text-align: center;
+
+                    #titrecrea {
+                        font-style: italic;
+                        text-align: center;
+                        font-family: 'Prompt', sans-serif;
+                        color: #4C98CC;
+
+                        #lettre1crea {
+                            font-family: 'Prompt', sans-serif;
+                            font-style: italic;
+                            font-size: 2rem;
+                        }
+
+
+                        #lettre2crea {
+                            font-style: italic;
+                            font-family: 'Prompt', sans-serif;
+                            color: #4C98CC;
+                        }
+
+                        #lettre3crea {
+                            font-family: 'Prompt', sans-serif;
+                            font-style: italic;
+                            font-size: 2rem;
+                        }
+
+                        #fincrea {
+                            font-family: 'Prompt', sans-serif;
+                            color: black;
+                        }
+                    }
+                }
+            }
+
+            .texteilluscrea {
+                margin: 8px;
+            }
+
+            .section3choixc {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                margin: 10px;
+                justify-content: center;
+                align-items: center;
+
+                .couleurs {
+                    width: 120px !important;
+                    margin: 0% !important;
+
+                    .imgcouleurs {
+                        width: 100% !important;
+
+                    }
+
+                }
+
+                #titrechoixc {
+                    font-style: italic;
+                    text-align: center;
+                    font-family: 'Prompt', sans-serif;
+                    color: #4C98CC;
+
+                    #lettre1choix {
+                        font-family: 'Prompt', sans-serif;
+                        font-style: italic;
+                        font-size: 2rem;
+                    }
+
+
+                    #lettre2choix {
+                        font-style: italic;
+                        font-family: 'Prompt', sans-serif;
+                        color: #4C98CC;
+                    }
+
+                    #lettre3choix {
+                        font-family: 'Prompt', sans-serif;
+                        font-style: italic;
+                        font-size: 2rem;
+                    }
+
+                    #finchoix {
+                        font-family: 'Prompt', sans-serif;
+                        color: black;
+                    }
+                }
+            }
+
+            .texteilluschoix {
+                margin: 8px;
+            }
+
+            .section4crealogo {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                margin: 10px;
+                justify-content: center;
+                align-items: center;
+
+
+                .logo {
+                    width: 120px !important;
+                    margin: 0% !important;
+
+                    .imglogo {
+                        width: 100% !important;
+
+                    }
+
+                }
+
+
+
+                .titres {
+
+                    text-align: center;
+
+                    #titrecrealogo {
+                        font-style: italic;
+                        text-align: center;
+                        font-family: 'Prompt', sans-serif;
+                        color: #4C98CC;
+
+                        #lettre1crealogo {
+                            font-family: 'Prompt', sans-serif;
+                            font-style: italic;
+                            font-size: 2rem;
+                        }
+
+
+                        #lettre2crealogo {
+                            font-style: italic;
+                            font-family: 'Prompt', sans-serif;
+                            color: #4C98CC;
+                        }
+
+                        #lettre3crealogo {
+                            font-family: 'Prompt', sans-serif;
+                            font-style: italic;
+                            font-size: 2rem;
+                        }
+
+                        #fincrealogo {
+                            font-family: 'Prompt', sans-serif;
+                            color: black;
+                        }
+                    }
+                }
+            }
+
+            .texteilluscrealogo {
+                margin: 8px;
+            }
+
+            .texteillusoptiref {
+                margin-top: 8px;
+                margin-left: 8px;
+                margin-right: 8px;
+                margin-bottom: 30px;
             }
         }
 
