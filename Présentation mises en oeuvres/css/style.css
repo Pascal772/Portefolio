@@ -3,21 +3,26 @@
           box-sizing: border-box;
 }
 
-* img {
+* body {
+  background-image: url("../Image/fond-ecran-wallpaper-iphone-12-pro-officiel-apple-2.jpg");
+}
+
+* body img {
   margin: 0%;
   width: 100%;
 }
 
-* a {
+* body a {
   text-decoration: none;
 }
 
-* p {
+* body p {
   margin: 0%;
+  font-family: 'Roboto', sans-serif;
 }
 
-* h1,
-* h2 {
+* body h1,
+* body h2 {
   color: #4C98CC;
   font-family: 'Prompt', sans-serif;
 }
@@ -130,7 +135,7 @@
   }
   body main .section1 .blockwp #fincms {
     font-size: 0.8em;
-    color: black;
+    color: white;
   }
   body main .section2 {
     display: -ms-grid;
@@ -157,7 +162,7 @@
     font-size: 2rem;
   }
   body main .section2 #titredesign #findesign {
-    color: black;
+    color: white;
   }
   body main .section3 #titrerea {
     font-style: italic;
@@ -170,7 +175,7 @@
     font-size: 2rem;
   }
   body main .section3 #titrerea #finrea {
-    color: black;
+    color: white;
   }
   body main .card {
     text-align: center;
@@ -191,7 +196,7 @@
     width: 100%;
   }
   body main .card .fincard {
-    color: black;
+    color: white;
   }
   body main .section1comp #titrecomp {
     font-style: italic;
@@ -204,7 +209,7 @@
     font-size: 2rem;
   }
   body main .section1comp #titrecomp #fincomp {
-    color: black;
+    color: white;
   }
   body main .section2comp {
     display: -ms-grid;
@@ -252,7 +257,7 @@
   }
   body main .section2comp .titres #titrecrea #fincrea {
     font-family: 'Prompt', sans-serif;
-    color: black;
+    color: white;
   }
   body main .texteilluscrea {
     margin: 8px;
@@ -300,7 +305,7 @@
   }
   body main .section3choixc #titrechoixc #finchoix {
     font-family: 'Prompt', sans-serif;
-    color: black;
+    color: white;
   }
   body main .texteilluschoix {
     margin: 8px;
@@ -381,7 +386,7 @@
 
 @media (min-width: 801px) and (max-width: 1200px) {
   body {
-    margin: 0%;
+    margin: 0% !important;
     padding: 0%;
     font-family: 'EB Garamond', sans-serif;
   }
@@ -465,6 +470,7 @@
     -ms-grid-column: 2;
         grid-column-start: 2;
     grid-column-end: 3;
+    color: white;
   }
   body main .section1 .blockwp div {
     width: 80%;
@@ -479,21 +485,21 @@
         justify-content: space-around;
   }
   body main .section1 .blockwp #logowp {
-    width: 40px;
-    height: 40px;
+    width: 80px;
+    height: 80px;
   }
   body main .section1 .blockwp #titrecms {
     font-style: italic;
     font-family: 'Prompt', sans-serif;
     color: #4C98CC;
-    font-size: 1em;
+    font-size: 1.5em;
   }
   body main .section1 .blockwp #lettre2cms {
     font-size: 2rem;
   }
   body main .section1 .blockwp #fincms {
     font-size: 0.8em;
-    color: black;
+    color: white;
   }
   body main .section2 {
     position: relative;
@@ -511,6 +517,7 @@
     -ms-grid-column: 2;
         grid-column-start: 2;
     grid-column-end: 3;
+    color: white;
   }
   body main .section2 #titredesign {
     font-style: italic;
@@ -523,7 +530,7 @@
     font-size: 2rem;
   }
   body main .section2 #titredesign #findesign {
-    color: black;
+    color: white;
   }
   body main .section3 {
     padding: 20px;
@@ -565,7 +572,10 @@
     color: black;
   }
   body .foot {
-    background-image: url("../Image/footer.svg");
+    margin: 0%;
+    padding: 0%;
+  }
+  body .foot .imgfoot {
     margin: 0%;
     padding: 0%;
   }
@@ -648,9 +658,12 @@
     margin-bottom: 5%;
   }
   body main .section1 .textillus {
+    font-size: 2em;
     position: absolute;
     top: 35%;
-    margin: 10px;
+    margin-top: 10%;
+    margin-left: 10px;
+    margin-right: 10px;
     -ms-grid-column: 2;
         grid-column-start: 2;
     grid-column-end: 3;
@@ -694,9 +707,12 @@
     margin-left: 5%;
   }
   body main .section2 .textillus {
+    font-size: 2em;
     position: absolute;
     top: 25%;
-    margin: 10px;
+    margin-top: 10%;
+    margin-left: 10px;
+    margin-right: 10px;
     -ms-grid-column: 2;
         grid-column-start: 2;
     grid-column-end: 3;
@@ -755,7 +771,10 @@
     color: black;
   }
   body .foot {
-    background-image: url("../Image/footer.svg");
+    margin: 0%;
+    padding: 0%;
+  }
+  body .foot .imgfoot {
     margin: 0%;
     padding: 0%;
   }
